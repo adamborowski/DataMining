@@ -1,0 +1,1 @@
+/home/adam/Dokumenty/Eksploracja/dane/Accidents0512.csv
