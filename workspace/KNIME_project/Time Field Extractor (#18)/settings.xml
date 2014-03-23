@@ -17,46 +17,56 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="selected.timestamp.column" type="xstring" value="Time"/>
-<config key="include.Hour_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="include.Hour" type="xboolean" value="true"/>
 <config key="Hour.column.name_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="Hour.column.name" type="xstring" value="Hour"/>
-<config key="include.Minute_Internals">
+<config key="include.Hour_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="include.Minute" type="xboolean" value="false"/>
+<entry key="include.Hour" type="xboolean" value="true"/>
 <config key="Minute.column.name_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="Minute.column.name" type="xstring" value="Minute"/>
-<config key="include.Second_Internals">
+<config key="include.Minute_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="include.Second" type="xboolean" value="false"/>
+<entry key="include.Minute" type="xboolean" value="false"/>
 <config key="Second.column.name_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="Second.column.name" type="xstring" value="Second"/>
-<config key="include.Millisecond_Internals">
+<config key="include.Second_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="include.Millisecond" type="xboolean" value="false"/>
+<entry key="include.Second" type="xboolean" value="false"/>
 <config key="Millisecond.column.name_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="Millisecond.column.name" type="xstring" value="Millisecond"/>
+<config key="include.Millisecond_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="include.Millisecond" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="tylko godzina"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="487"/>
+<entry key="y-coordinate" type="xint" value="140"/>
+<entry key="width" type="xint" value="151"/>
+<entry key="height" type="xint" value="17"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -74,6 +84,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ead8030b-55ef-40f8-9b5f-81210606801a"/>
+<entry key="file_store_id" type="xstring" value="c42d11dd-6bf0-4951-bf61-67a48c0b8578"/>
 </config>
 </config>
