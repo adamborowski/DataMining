@@ -78,6 +78,11 @@
 <entry key="new_column_name" type="xstring" value="obszar"/>
 <entry key="new_column_type" type="xint" value="1"/>
 </config>
+<config key="Hour">
+<entry key="old_column_name" type="xstring" value="Hour"/>
+<entry key="new_column_name" type="xstring" value="godzina"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
 </config>
 </config>
 <config key="nodeAnnotation">
@@ -91,18 +96,21 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="name" type="xstring" value="Column Rename"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 100000, Cols: 14"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="d2effac7-5c54-4b3e-9cdd-d6db24d3c849"/>
 </config>
 </config>

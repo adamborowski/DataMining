@@ -2,25 +2,31 @@
 <favoritenodes>
 <personals/>
 <frequents>
+<favorite frequency="1" nodeid="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.viz.histogram.node.FixedColumnHistogramNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.timeseries.node.stringtotimestamp.String2DateNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.timeseries.node.extract.TimeFieldExtractorNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.preproc.stringreplacer.dict.SearchReplaceDictNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.preproc.domain.DomainNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.viz.plotter.scattermatrix.ScatterMatrixNodeFactory"/>
 <favorite frequency="1" nodeid="org.knime.base.node.io.csvreader.CSVReaderNodeFactory"/>
 <favorite frequency="1" nodeid="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
-<favorite frequency="1" nodeid="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
 <favorite frequency="1" nodeid="org.knime.base.node.io.predictor.PredictorReaderNodeFactory"/>
 <favorite frequency="2" nodeid="org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory"/>
 <favorite frequency="1" nodeid="org.knime.base.node.preproc.missingval.MissingValueHandling3NodeFactory"/>
 <favorite frequency="1" nodeid="org.knime.timeseries.node.time2string.Time2StringNodeFactory"/>
-<favorite frequency="1" nodeid="org.knime.base.node.preproc.stringreplacer.dict.SearchReplaceDictNodeFactory"/>
 <favorite frequency="1" nodeid="org.knime.base.node.preproc.domain.editnumeric.EditNumericDomainNodeFactory"/>
 </frequents>
 <lastused>
-<favorite nodeid="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
-<favorite nodeid="org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory"/>
-<favorite nodeid="org.knime.timeseries.node.time2string.Time2StringNodeFactory"/>
-<favorite nodeid="org.knime.base.node.preproc.domain.editnumeric.EditNumericDomainNodeFactory"/>
-<favorite nodeid="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
-<favorite nodeid="org.knime.base.node.preproc.stringreplacer.dict.SearchReplaceDictNodeFactory"/>
-<favorite nodeid="org.knime.base.node.preproc.missingval.MissingValueHandling3NodeFactory"/>
-<favorite nodeid="org.knime.base.node.io.predictor.PredictorReaderNodeFactory"/>
+<favorite nodeid="org.knime.timeseries.node.extract.TimeFieldExtractorNodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.domain.DomainNodeFactory"/>
+<favorite nodeid="org.knime.timeseries.node.stringtotimestamp.String2DateNodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.histogram.node.FixedColumnHistogramNodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.plotter.scattermatrix.ScatterMatrixNodeFactory"/>
 <favorite nodeid="org.knime.base.node.io.csvreader.CSVReaderNodeFactory"/>
+<favorite nodeid="org.knime.base.node.io.predictor.PredictorReaderNodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.missingval.MissingValueHandling3NodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.stringreplacer.dict.SearchReplaceDictNodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
 </lastused>
 </favoritenodes>

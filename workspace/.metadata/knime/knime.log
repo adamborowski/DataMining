@@ -7441,3 +7441,121 @@ java.lang.IllegalStateException: Cannot load settings into node; it is executing
 2014-03-24 00:13:48,165 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_9125025262979716091.bin.gz", 1 remaining
 2014-03-24 00:13:48,166 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_863739844297008446.bin.gz", 2 remaining
 2014-03-24 00:23:32,630 DEBUG AWT-EventQueue-0 DefaultVisualizationNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 00:26:23,775 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 00:26:23,836 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#3)"
+2014-03-24 00:26:23,855 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Column Filter (#4)"
+2014-03-24 00:26:23,864 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Number To String (#5)"
+2014-03-24 00:26:23,883 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#6)"
+2014-03-24 00:26:23,899 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#7)"
+2014-03-24 00:26:23,912 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#8)"
+2014-03-24 00:26:23,921 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#9)"
+2014-03-24 00:26:23,929 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#10)"
+2014-03-24 00:26:23,937 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#11)"
+2014-03-24 00:26:24,109 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#12)"
+2014-03-24 00:26:24,183 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String Replace _Dictionary_ (#13)"
+2014-03-24 00:26:24,264 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Column Rename (#14)"
+2014-03-24 00:26:24,270 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Scatter Matrix (#15)"
+2014-03-24 00:26:25,220 DEBUG ModalContext Buffer : Buffer file (/tmp/knime_KNIME_project71998/knime_container_20140324_7486558975279305883.bin.gz) is 1,034MB in size
+2014-03-24 00:26:25,233 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Histogram (#16)"
+2014-03-24 00:26:25,234 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/String to Date_Time (#17)"
+2014-03-24 00:26:25,240 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Time Field Extractor (#18)"
+2014-03-24 00:26:25,272 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project"
+2014-03-24 00:26:25,459 DEBUG main WorkflowRootEditPart : WorkflowRootEditPart deactivated
+2014-03-24 00:26:25,464 DEBUG main WorkflowEditor : Disposing editor...
+2014-03-24 00:26:25,464 DEBUG main ProjectWorkflowMap : unregistering org.knime.workbench.editor2.WorkflowEditor@375812d8 from file:/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/. 0 left.
+2014-03-24 00:26:25,464 DEBUG main ProjectWorkflowMap : Removing "file:/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/" from project map (0 remaining)
+2014-03-24 00:26:25,465 DEBUG main WorkflowManager : Removing project "KNIME_project 0"
+2014-03-24 00:26:25,466 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 7a96f4b6-b6ac-4522-ba98-1ca5339440ef (Scatter Matrix 0:15: <no directory>) - 16 remaining
+2014-03-24 00:26:25,466 DEBUG main DefaultVisualizationNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,466 DEBUG main Scatter Matrix : clean output ports.
+2014-03-24 00:26:25,466 DEBUG main FixedColumnHistogramNodeModel : Removing all (1) views from model.
+2014-03-24 00:26:25,466 DEBUG main FixedColumnHistogramNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 00:26:25,493 DEBUG main Histogram : clean output ports.
+2014-03-24 00:26:25,493 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler d2effac7-5c54-4b3e-9cdd-d6db24d3c849 (Column Rename 0:14: <no directory>) - 15 remaining
+2014-03-24 00:26:25,493 DEBUG main RenameNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,493 DEBUG main Column Rename : clean output ports.
+2014-03-24 00:26:25,494 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler b65b297a-7df3-4dd4-86bc-645e0118c5d2 (String Replace (Dictionary) 0:13: <no directory>) - 14 remaining
+2014-03-24 00:26:25,494 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,494 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,494 DEBUG main MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 remaining)
+2014-03-24 00:26:25,494 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler b572ee84-4239-4a7a-ba2b-9f76febffeed (String Replace (Dictionary) 0:12: <no directory>) - 13 remaining
+2014-03-24 00:26:25,494 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,494 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,494 DEBUG main MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 remaining)
+2014-03-24 00:26:25,494 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler f7616a94-be04-44a2-a129-1cf1f2db3810 (String Replace (Dictionary) 0:11: <no directory>) - 12 remaining
+2014-03-24 00:26:25,494 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,494 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,494 DEBUG main MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (0 remaining)
+2014-03-24 00:26:25,494 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler f704c613-24ca-4efa-b66e-36ad77c2a8a2 (String Replace (Dictionary) 0:10: <no directory>) - 11 remaining
+2014-03-24 00:26:25,494 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,494 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,494 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_9125025262979716091.bin.gz", 0 remaining
+2014-03-24 00:26:25,495 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,495 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 35f15ab6-7b0f-4409-b074-f3098b7b8aad (String Replace (Dictionary) 0:9: <no directory>) - 10 remaining
+2014-03-24 00:26:25,495 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,495 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_9125025262979716091.bin.gz"
+2014-03-24 00:26:25,495 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,495 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_7523431600231555757.bin.gz", 0 remaining
+2014-03-24 00:26:25,495 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,496 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_7523431600231555757.bin.gz"
+2014-03-24 00:26:25,496 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 9d05eadb-2b3e-411f-80a3-592525a575a2 (String Replace (Dictionary) 0:8: <no directory>) - 9 remaining
+2014-03-24 00:26:25,496 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,496 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,496 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_2608772980969918250.bin.gz", 0 remaining
+2014-03-24 00:26:25,496 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,497 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_2608772980969918250.bin.gz"
+2014-03-24 00:26:25,497 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 39dc469a-d325-4a44-8725-0cf7d87b8aef (String Replace (Dictionary) 0:7: <no directory>) - 8 remaining
+2014-03-24 00:26:25,497 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,497 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,497 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_5634764138016978848.bin.gz", 0 remaining
+2014-03-24 00:26:25,497 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,498 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_5634764138016978848.bin.gz"
+2014-03-24 00:26:25,498 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler f21629c4-733a-4245-9705-9508b1186178 (String Replace (Dictionary) 0:6: <no directory>) - 7 remaining
+2014-03-24 00:26:25,498 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,498 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,498 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_7623591329879176238.bin.gz", 0 remaining
+2014-03-24 00:26:25,498 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,498 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_7623591329879176238.bin.gz"
+2014-03-24 00:26:25,498 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler f0be754e-3499-4360-a4b3-c1e046a9798d (String Replace (Dictionary) 0:3: <no directory>) - 6 remaining
+2014-03-24 00:26:25,499 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,499 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 00:26:25,499 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_3362847609948923741.bin.gz", 0 remaining
+2014-03-24 00:26:25,499 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,499 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_3362847609948923741.bin.gz"
+2014-03-24 00:26:25,499 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 2689c228-cadb-40dd-bec0-1e36aa90bfed (Number To String 0:5: <no directory>) - 5 remaining
+2014-03-24 00:26:25,500 DEBUG main NumberToStringNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,500 DEBUG main Number To String : clean output ports.
+2014-03-24 00:26:25,500 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_3797085455617436429.bin.gz", 0 remaining
+2014-03-24 00:26:25,500 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 506026ee-ee22-4f95-a8c2-d8304b4c7023 (Column Filter 0:4: <no directory>) - 4 remaining
+2014-03-24 00:26:25,500 DEBUG main DataColumnSpecFilterNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,500 DEBUG main Column Filter : clean output ports.
+2014-03-24 00:26:25,500 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_3797085455617436429.bin.gz"
+2014-03-24 00:26:25,501 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler ead8030b-55ef-40f8-9b5f-81210606801a (Time Field Extractor 0:18: <no directory>) - 3 remaining
+2014-03-24 00:26:25,501 DEBUG main TimeFieldExtractorNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,501 DEBUG main Time Field Extractor : clean output ports.
+2014-03-24 00:26:25,501 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_577342042575670212.bin.gz", 1 remaining
+2014-03-24 00:26:25,501 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_577342042575670212.bin.gz", 0 remaining
+2014-03-24 00:26:25,501 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,501 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_577342042575670212.bin.gz"
+2014-03-24 00:26:25,501 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler a96cd118-663e-4d69-838c-250d138ea179 (String to Date/Time 0:17: <no directory>) - 2 remaining
+2014-03-24 00:26:25,501 DEBUG main String2DateNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,501 DEBUG main String to Date/Time : clean output ports.
+2014-03-24 00:26:25,501 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_863739844297008446.bin.gz", 1 remaining
+2014-03-24 00:26:25,501 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140324_863739844297008446.bin.gz", 0 remaining
+2014-03-24 00:26:25,501 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 00:26:25,501 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 1f60cbe2-e92b-4577-b87d-9ceee3308028 (Missing Value 0:2: <no directory>) - 1 remaining
+2014-03-24 00:26:25,501 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140324_863739844297008446.bin.gz"
+2014-03-24 00:26:25,502 DEBUG main MissingValueHandling3NodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,502 DEBUG main Missing Value : clean output ports.
+2014-03-24 00:26:25,502 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140323_7215262887114479659.bin.gz", 4 remaining
+2014-03-24 00:26:25,502 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140323_7215262887114479659.bin.gz", 3 remaining
+2014-03-24 00:26:25,502 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140323_7215262887114479659.bin.gz", 2 remaining
+2014-03-24 00:26:25,502 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140323_7215262887114479659.bin.gz", 1 remaining
+2014-03-24 00:26:25,502 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project71998/knime_container_20140323_7215262887114479659.bin.gz", 0 remaining
+2014-03-24 00:26:25,502 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 3ad8a21c-6c67-4948-908f-446824107884 (CSV Reader 0:1: <no directory>) - 0 remaining
+2014-03-24 00:26:25,502 DEBUG main CSVReaderNodeModel : Removing all (0) views from model.
+2014-03-24 00:26:25,503 DEBUG main CSV Reader : clean output ports.
+2014-03-24 00:26:25,503 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140323_7215262887114479659.bin.gz"
+2014-03-24 00:26:25,504 DEBUG main WorkflowManager : Project "KNIME_project 0" removed (1 remaining)
+2014-03-24 00:26:25,504 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project71998/knime_container_20140323_2730151134089042184.bin.gz"
+2014-03-24 00:26:25,713 DEBUG KNIME-Temp-File-Deleter Buffer : Failed to delete temporary directory "/tmp/knime_KNIME_project71998/knime_container_20140324_7486558975279305883.bin.gz"
