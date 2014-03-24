@@ -1,2 +1,3 @@
+/var/datamining/data/Vehicles0512.csv
 /home/adam/projekty/DataMining/data/Accidents0512.csv
 /home/adam/Dokumenty/Eksploracja/dane/Accidents0512.csv

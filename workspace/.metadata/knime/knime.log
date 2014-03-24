@@ -12300,3 +12300,467 @@ org.knime.core.node.InvalidSettingsException: Specified input file doesn't exist
 2014-03-24 15:30:18,911 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project/String Replace _Dictionary_ (#9)"
 2014-03-24 15:30:18,911 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project/String to Date_Time (#17)"
 2014-03-24 15:30:18,911 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project/Time Field Extractor (#18)"
+2014-03-24 15:33:12,193 DEBUG main NodeContainerEditPart : Histogram 0:16 (EXECUTED)
+2014-03-24 15:33:12,193 DEBUG main NodeContainerEditPart : Scatter Matrix 0:15 (EXECUTED)
+2014-03-24 15:33:12,193 DEBUG main NodeContainerEditPart : Histogram 0:19 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : Missing Value 0:2 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:3 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : Column Filter 0:4 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : Number To String 0:5 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:6 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:7 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:8 (EXECUTED)
+2014-03-24 15:33:19,966 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:9 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:10 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:11 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:12 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:13 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : Scatter Matrix 0:15 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : Histogram 0:16 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : String to Date/Time 0:17 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : Time Field Extractor 0:18 (EXECUTED)
+2014-03-24 15:33:19,967 DEBUG main NodeContainerEditPart : Histogram 0:19 (EXECUTED)
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:5(1) -> 0:3( 1)]
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 1102, 472, 1102, 586, 27, 586, 27, 703, 
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:13(1) -> 0:14( 1)]
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 1130, 703, 1130, 813, 37, 813, 37, 862, 
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:15( 1)]
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 393, 862, 
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:16( 1)]
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 185, 862, 
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:19( 1)]
+2014-03-24 15:33:24,682 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 282, 862, 
+2014-03-24 15:33:24,682 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 15:33:24,683 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 15:33:24]
+2014-03-24 15:33:24,683 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:33:25,200 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 15:33:25,200 DEBUG main NodeContainerEditPart : Missing Value 0:2 (EXECUTED)
+2014-03-24 15:33:25,201 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:3 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : Column Filter 0:4 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : Number To String 0:5 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:6 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:7 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:8 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:9 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:10 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:11 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:12 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:13 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : Scatter Matrix 0:15 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : Histogram 0:16 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : String to Date/Time 0:17 (EXECUTED)
+2014-03-24 15:33:25,202 DEBUG main NodeContainerEditPart : Time Field Extractor 0:18 (EXECUTED)
+2014-03-24 15:33:25,203 DEBUG main NodeContainerEditPart : Histogram 0:19 (EXECUTED)
+2014-03-24 15:33:25,471 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 15:34:54,317 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=3767564 data=[org.knime.base.node.io.csvreader.CSVReaderNodeFactory] x=389 y=215 item=null operations=1 operation=1 feedback=1 dataTypes={ 156 } currentDataType=156}
+2014-03-24 15:34:54,321 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 15:34:54,321 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:20;old=null;new=CSV Reader 0:20 (IDLE);timestamp=2014-03-24 15:34:54]
+2014-03-24 15:34:54,321 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 15:34:54,321 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:34:54,321 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 15:34:54]
+2014-03-24 15:34:54,321 WARN  main CSV Reader : No settings available
+2014-03-24 15:34:54,321 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:34:54,321 DEBUG main WorkflowManager : Added new node 0:20
+2014-03-24 15:34:54,385 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 15:34:54,387 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( CSV Reader 0:20 (IDLE) )
+2014-03-24 15:35:29,930 DEBUG main NodeContainer : Setting dirty flag on CSV Reader 0:20
+2014-03-24 15:35:29,931 DEBUG main CSV Reader : Configure succeeded. (CSV Reader)
+2014-03-24 15:35:29,931 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED
+2014-03-24 15:35:29,931 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 15:35:31,823 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 15:35:31,824 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 15:35:31,824 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED_QUEUED
+2014-03-24 15:35:31,824 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 15:35:31,824 DEBUG KNIME-Worker-13 WorkflowManager : CSV Reader 0:20 doBeforePreExecution
+2014-03-24 15:35:31,824 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 15:35:31,824 DEBUG KNIME-Worker-13 NodeContainer : CSV Reader 0:20 has new state: PREEXECUTE
+2014-03-24 15:35:31,824 DEBUG KNIME-Worker-13 WorkflowManager : CSV Reader 0:20 doBeforeExecution
+2014-03-24 15:35:31,824 DEBUG KNIME-Worker-13 NodeContainer : CSV Reader 0:20 has new state: EXECUTING
+2014-03-24 15:35:31,824 DEBUG KNIME-Worker-13 LocalNodeExecutionJob : CSV Reader 0:20 Start execute
+2014-03-24 15:35:31,825 DEBUG KNIME-Worker-13 WorkflowFileStoreHandlerRepository : Adding handler b76021de-8201-47e1-91c1-f4856f84f305 (CSV Reader 0:20: <no directory>) - 20 in total
+2014-03-24 15:35:31,879 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project73423/knime_container_20140324_2394243465776748533.bin.gz"
+2014-03-24 15:35:42,720 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=3815972 data=[org.knime.base.node.preproc.groupby.GroupByNodeFactory] x=594 y=257 item=null operations=1 operation=1 feedback=1 dataTypes={ 156 } currentDataType=156}
+2014-03-24 15:35:42,734 DEBUG main WorkflowManager : Added new node 0:21
+2014-03-24 15:35:42,734 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:21;old=null;new=GroupBy 0:21 (IDLE);timestamp=2014-03-24 15:35:42]
+2014-03-24 15:35:42,734 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:35:42,763 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 15:35:42,763 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( GroupBy 0:21 (IDLE) )
+2014-03-24 15:35:42,764 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTING)
+2014-03-24 15:35:44,381 DEBUG AWT-EventQueue-0 DataType : LongValue is the preferred value class of cell implementation LongCell, made sanity check
+2014-03-24 15:35:46,831 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:35:58,611 DEBUG KNIME-TableIO-10 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 15:36:28,612 DEBUG KNIME-Worker-13 CSV Reader : reset
+2014-03-24 15:36:28,613 ERROR KNIME-Worker-13 CSV Reader : Execute failed: Encountered duplicate row ID  "200501BS00003" at row number 4
+2014-03-24 15:36:28,613 DEBUG KNIME-Worker-13 CSV Reader : Execute failed: Encountered duplicate row ID  "200501BS00003" at row number 4
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID  "200501BS00003" at row number 4
+	at org.knime.core.data.container.DataContainer.checkAsyncWriteThrowable(DataContainer.java:606)
+	at org.knime.core.data.container.DataContainer.offerToAsynchronousQueue(DataContainer.java:780)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:719)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:256)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:170)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:713)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeNodeModelExecute(Node.java:1069)
+	at org.knime.core.node.Node.execute(Node.java:924)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:418)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:182)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:238)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID  "200501BS00003" at row number 4
+	at org.knime.core.data.container.DataContainer.addRowKeyForDuplicateCheck(DataContainer.java:944)
+	at org.knime.core.data.container.DataContainer.addRowToTableWrite(DataContainer.java:590)
+	at org.knime.core.data.container.DataContainer.access$4(DataContainer.java:542)
+	at org.knime.core.data.container.DataContainer$ASyncWriteCallable.callWithContext(DataContainer.java:1415)
+	at org.knime.core.data.container.DataContainer$ASyncWriteCallable.call(DataContainer.java:1388)
+	at org.knime.core.data.container.DataContainer$ASyncWriteCallable.call(DataContainer.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 WorkflowManager : CSV Reader 0:20 doBeforePostExecution
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 NodeContainer : CSV Reader 0:20 has new state: POSTEXECUTE
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 WorkflowManager : CSV Reader 0:20 doAfterExecute - failure
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 CSV Reader : reset
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 CSV Reader : clean output ports.
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 WorkflowFileStoreHandlerRepository : Removing handler b76021de-8201-47e1-91c1-f4856f84f305 (CSV Reader 0:20: <no directory>) - 19 remaining
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 NodeContainer : CSV Reader 0:20 has new state: IDLE
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 CSV Reader : Configure succeeded. (CSV Reader)
+2014-03-24 15:36:28,615 DEBUG KNIME-Worker-13 NodeContainer : CSV Reader 0:20 has new state: CONFIGURED
+2014-03-24 15:36:28,616 DEBUG KNIME-Worker-13 NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 15:36:28,616 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 15:36:44,214 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:36:51,167 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:36:51,168 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (CONFIGURED)
+2014-03-24 15:37:10,967 DEBUG main CSV Reader : reset
+2014-03-24 15:37:10,968 DEBUG main CSV Reader : clean output ports.
+2014-03-24 15:37:10,968 DEBUG main NodeContainer : CSV Reader 0:20 has new state: IDLE
+2014-03-24 15:37:10,968 DEBUG main CSV Reader : Configure succeeded. (CSV Reader)
+2014-03-24 15:37:10,968 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED
+2014-03-24 15:37:12,407 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 15:37:12,407 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 15:37:12,407 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED_QUEUED
+2014-03-24 15:37:12,407 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 15:37:12,408 DEBUG KNIME-Worker-14 WorkflowManager : CSV Reader 0:20 doBeforePreExecution
+2014-03-24 15:37:12,408 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 15:37:12,408 DEBUG KNIME-Worker-14 NodeContainer : CSV Reader 0:20 has new state: PREEXECUTE
+2014-03-24 15:37:12,408 DEBUG KNIME-Worker-14 WorkflowManager : CSV Reader 0:20 doBeforeExecution
+2014-03-24 15:37:12,408 DEBUG KNIME-Worker-14 NodeContainer : CSV Reader 0:20 has new state: EXECUTING
+2014-03-24 15:37:12,408 DEBUG KNIME-Worker-14 LocalNodeExecutionJob : CSV Reader 0:20 Start execute
+2014-03-24 15:37:12,408 DEBUG KNIME-Worker-14 WorkflowFileStoreHandlerRepository : Adding handler 0290d049-c217-4c15-a8a2-62eb918597f6 (CSV Reader 0:20: <no directory>) - 20 in total
+2014-03-24 15:37:12,495 DEBUG Finalizer MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 15:37:35,382 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTING)
+2014-03-24 15:37:39,124 DEBUG KNIME-TableIO-11 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 15:38:02,062 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTING)
+2014-03-24 15:38:09,125 DEBUG KNIME-Worker-14 CSV Reader : reset
+2014-03-24 15:38:09,125 ERROR KNIME-Worker-14 CSV Reader : Execute failed: Encountered duplicate row ID  "200501BS00003" at row number 4
+2014-03-24 15:38:09,126 DEBUG KNIME-Worker-14 CSV Reader : Execute failed: Encountered duplicate row ID  "200501BS00003" at row number 4
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID  "200501BS00003" at row number 4
+	at org.knime.core.data.container.DataContainer.checkAsyncWriteThrowable(DataContainer.java:606)
+	at org.knime.core.data.container.DataContainer.offerToAsynchronousQueue(DataContainer.java:780)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:719)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:256)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:170)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:713)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeNodeModelExecute(Node.java:1069)
+	at org.knime.core.node.Node.execute(Node.java:924)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:418)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:182)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:238)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID  "200501BS00003" at row number 4
+	at org.knime.core.data.container.DataContainer.addRowKeyForDuplicateCheck(DataContainer.java:944)
+	at org.knime.core.data.container.DataContainer.addRowToTableWrite(DataContainer.java:590)
+	at org.knime.core.data.container.DataContainer.access$4(DataContainer.java:542)
+	at org.knime.core.data.container.DataContainer$ASyncWriteCallable.callWithContext(DataContainer.java:1415)
+	at org.knime.core.data.container.DataContainer$ASyncWriteCallable.call(DataContainer.java:1388)
+	at org.knime.core.data.container.DataContainer$ASyncWriteCallable.call(DataContainer.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 WorkflowManager : CSV Reader 0:20 doBeforePostExecution
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 NodeContainer : CSV Reader 0:20 has new state: POSTEXECUTE
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 WorkflowManager : CSV Reader 0:20 doAfterExecute - failure
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 CSV Reader : reset
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 CSV Reader : clean output ports.
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 WorkflowFileStoreHandlerRepository : Removing handler 0290d049-c217-4c15-a8a2-62eb918597f6 (CSV Reader 0:20: <no directory>) - 19 remaining
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 NodeContainer : CSV Reader 0:20 has new state: IDLE
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 CSV Reader : Configure succeeded. (CSV Reader)
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 NodeContainer : CSV Reader 0:20 has new state: CONFIGURED
+2014-03-24 15:38:09,128 DEBUG KNIME-Worker-14 NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 15:38:09,129 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 15:38:26,263 DEBUG main CSV Reader : reset
+2014-03-24 15:38:26,263 DEBUG main CSV Reader : clean output ports.
+2014-03-24 15:38:26,263 DEBUG main NodeContainer : CSV Reader 0:20 has new state: IDLE
+2014-03-24 15:38:26,263 DEBUG main CSV Reader : Configure succeeded. (CSV Reader)
+2014-03-24 15:38:26,263 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED
+2014-03-24 15:38:28,087 DEBUG main CSV Reader : reset
+2014-03-24 15:38:28,087 DEBUG main CSV Reader : clean output ports.
+2014-03-24 15:38:28,087 DEBUG main NodeContainer : CSV Reader 0:20 has new state: IDLE
+2014-03-24 15:38:28,087 DEBUG main CSV Reader : Configure succeeded. (CSV Reader)
+2014-03-24 15:38:28,087 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED
+2014-03-24 15:38:29,974 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 15:38:29,975 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 15:38:29,975 DEBUG main NodeContainer : CSV Reader 0:20 has new state: CONFIGURED_QUEUED
+2014-03-24 15:38:29,975 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 15:38:29,975 DEBUG KNIME-Worker-15 WorkflowManager : CSV Reader 0:20 doBeforePreExecution
+2014-03-24 15:38:29,975 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 15:38:29,975 DEBUG KNIME-Worker-15 NodeContainer : CSV Reader 0:20 has new state: PREEXECUTE
+2014-03-24 15:38:29,975 DEBUG KNIME-Worker-15 WorkflowManager : CSV Reader 0:20 doBeforeExecution
+2014-03-24 15:38:29,975 DEBUG KNIME-Worker-15 NodeContainer : CSV Reader 0:20 has new state: EXECUTING
+2014-03-24 15:38:29,976 DEBUG KNIME-Worker-15 LocalNodeExecutionJob : CSV Reader 0:20 Start execute
+2014-03-24 15:38:29,976 DEBUG KNIME-Worker-15 WorkflowFileStoreHandlerRepository : Adding handler 113fdb00-c3c5-41d4-8d8a-7d37fc0238ae (CSV Reader 0:20: <no directory>) - 20 in total
+2014-03-24 15:38:30,141 DEBUG Finalizer MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 15:38:57,460 DEBUG KNIME-TableIO-12 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 15:38:57,603 DEBUG KNIME-TableIO-12 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 remaining)
+2014-03-24 15:39:06,192 DEBUG KNIME-Worker-15 Buffer : Buffer file (/tmp/knime_KNIME_project73423/knime_container_20140324_6699634782822313315.bin.gz) is 4,784MB in size
+2014-03-24 15:39:06,264 INFO  KNIME-Worker-15 LocalNodeExecutionJob : CSV Reader 0:20 End execute (36 secs)
+2014-03-24 15:39:06,264 DEBUG KNIME-Worker-15 WorkflowManager : CSV Reader 0:20 doBeforePostExecution
+2014-03-24 15:39:06,264 DEBUG KNIME-Worker-15 NodeContainer : CSV Reader 0:20 has new state: POSTEXECUTE
+2014-03-24 15:39:06,264 DEBUG KNIME-Worker-15 WorkflowManager : CSV Reader 0:20 doAfterExecute - success
+2014-03-24 15:39:06,264 DEBUG KNIME-Worker-15 NodeContainer : CSV Reader 0:20 has new state: EXECUTED
+2014-03-24 15:39:06,264 DEBUG KNIME-Worker-15 NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 15:39:06,265 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 15:39:25,422 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTED)
+2014-03-24 15:39:39,712 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=4052962 data=[org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory] x=461 y=221 item=null operations=1 operation=1 feedback=1 dataTypes={ 156 } currentDataType=156}
+2014-03-24 15:39:39,714 DEBUG main WorkflowManager : Added new node 0:22
+2014-03-24 15:39:39,714 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:22;old=null;new=Column Filter 0:22 (IDLE);timestamp=2014-03-24 15:39:39]
+2014-03-24 15:39:39,714 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:39:39,762 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 15:39:39,764 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Column Filter 0:22 (IDLE) )
+2014-03-24 15:39:40,549 DEBUG main NodeContainerEditPart : Column Filter 0:22 (IDLE)
+2014-03-24 15:39:40,549 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:39:41,854 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:39:48,910 DEBUG main NodeContainerEditPart : Column Filter 0:22 (IDLE)
+2014-03-24 15:39:49,750 DEBUG main NodeContainerEditPart : Column Filter 0:22 (IDLE)
+2014-03-24 15:39:59,371 DEBUG main NodeContainer : Setting dirty flag on Column Filter 0:22
+2014-03-24 15:40:00,693 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTED)
+2014-03-24 15:40:01,333 DEBUG main CreateConnectionCommand : adding connection from 0:20 1 to 0:22 1
+2014-03-24 15:40:01,334 DEBUG main Column Filter : Configure succeeded. (Column Filter)
+2014-03-24 15:40:01,334 DEBUG main NodeContainer : Column Filter 0:22 has new state: CONFIGURED
+2014-03-24 15:40:01,334 DEBUG main WorkflowManager : Added new connection from node 0:20(1) to node 0:22(1)
+2014-03-24 15:40:01,334 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:20(1) -> 0:22( 1)];timestamp=2014-03-24 15:40:01]
+2014-03-24 15:40:01,334 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:40:01,355 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:20(1) -> 0:22( 1)]
+2014-03-24 15:40:01,355 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 15:40:01,355 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:20(1) -> 0:22( 1)]
+2014-03-24 15:40:01,355 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 15:40:01,782 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTED)
+2014-03-24 15:40:01,782 DEBUG main NodeContainerEditPart : Column Filter 0:22 (CONFIGURED)
+2014-03-24 15:47:24,444 DEBUG main Column Filter : reset
+2014-03-24 15:47:24,444 DEBUG main Column Filter : clean output ports.
+2014-03-24 15:47:24,444 DEBUG main NodeContainer : Column Filter 0:22 has new state: IDLE
+2014-03-24 15:47:24,444 DEBUG main Column Filter : Configure succeeded. (Column Filter)
+2014-03-24 15:47:24,444 DEBUG main NodeContainer : Column Filter 0:22 has new state: CONFIGURED
+2014-03-24 15:47:25,827 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 15:47:25,828 DEBUG main NodeContainer : Column Filter 0:22 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 15:47:25,828 DEBUG main NodeContainer : Column Filter 0:22 has new state: CONFIGURED_QUEUED
+2014-03-24 15:47:25,828 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 15:47:25,828 DEBUG KNIME-Worker-16 WorkflowManager : Column Filter 0:22 doBeforePreExecution
+2014-03-24 15:47:25,828 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 15:47:25,828 DEBUG KNIME-Worker-16 NodeContainer : Column Filter 0:22 has new state: PREEXECUTE
+2014-03-24 15:47:25,828 DEBUG KNIME-Worker-16 WorkflowManager : Column Filter 0:22 doBeforeExecution
+2014-03-24 15:47:25,828 DEBUG KNIME-Worker-16 NodeContainer : Column Filter 0:22 has new state: EXECUTING
+2014-03-24 15:47:25,829 DEBUG KNIME-Worker-16 LocalNodeExecutionJob : Column Filter 0:22 Start execute
+2014-03-24 15:47:25,829 DEBUG KNIME-Worker-16 WorkflowFileStoreHandlerRepository : Adding handler da323b24-0bd7-4d3b-bc0f-d7759cc167e9 (Column Filter 0:22: <no directory>) - 21 in total
+2014-03-24 15:47:25,829 INFO  KNIME-Worker-16 LocalNodeExecutionJob : Column Filter 0:22 End execute (0 secs)
+2014-03-24 15:47:25,829 DEBUG KNIME-Worker-16 WorkflowManager : Column Filter 0:22 doBeforePostExecution
+2014-03-24 15:47:25,829 DEBUG KNIME-Worker-16 NodeContainer : Column Filter 0:22 has new state: POSTEXECUTE
+2014-03-24 15:47:25,829 DEBUG KNIME-Worker-16 WorkflowManager : Column Filter 0:22 doAfterExecute - success
+2014-03-24 15:47:25,829 DEBUG KNIME-Worker-16 NodeContainer : Column Filter 0:22 has new state: EXECUTED
+2014-03-24 15:47:25,829 DEBUG KNIME-Worker-16 NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 15:47:25,829 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 15:47:26,763 DEBUG main NodeContainerEditPart : Column Filter 0:22 (EXECUTED)
+2014-03-24 15:47:26,763 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:48:27,819 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:48:27,819 DEBUG main NodeContainerEditPart : Column Filter 0:22 (EXECUTED)
+2014-03-24 15:54:28,879 DEBUG main Column Filter : reset
+2014-03-24 15:54:28,879 DEBUG main Column Filter : clean output ports.
+2014-03-24 15:54:28,880 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler da323b24-0bd7-4d3b-bc0f-d7759cc167e9 (Column Filter 0:22: <no directory>) - 20 remaining
+2014-03-24 15:54:28,880 DEBUG main NodeContainer : Column Filter 0:22 has new state: IDLE
+2014-03-24 15:54:28,880 DEBUG main Column Filter : Configure succeeded. (Column Filter)
+2014-03-24 15:54:28,880 DEBUG main NodeContainer : Column Filter 0:22 has new state: CONFIGURED
+2014-03-24 15:55:33,473 DEBUG main NodeContainerEditPart : Column Filter 0:22 (CONFIGURED)
+2014-03-24 15:55:33,473 DEBUG main NodeContainerEditPart : Number To String 0:5 (EXECUTED)
+2014-03-24 15:55:40,026 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=5013277 data=[org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory] x=646 y=232 item=null operations=1 operation=1 feedback=1 dataTypes={ 156 } currentDataType=156}
+2014-03-24 15:55:40,029 DEBUG main WorkflowManager : Added new node 0:23
+2014-03-24 15:55:40,029 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:23;old=null;new=Number To String 0:23 (IDLE);timestamp=2014-03-24 15:55:40]
+2014-03-24 15:55:40,029 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:55:40,082 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 15:55:40,083 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Number To String 0:23 (IDLE) )
+2014-03-24 15:55:40,084 DEBUG main NodeContainerEditPart : Number To String 0:5 (EXECUTED)
+2014-03-24 15:55:41,136 DEBUG main NodeContainerEditPart : Number To String 0:23 (IDLE)
+2014-03-24 15:55:41,136 DEBUG main NodeContainerEditPart : Column Filter 0:22 (CONFIGURED)
+2014-03-24 15:55:41,941 DEBUG main CreateConnectionCommand : adding connection from 0:22 1 to 0:23 1
+2014-03-24 15:55:41,941 WARN  main Number To String : No columns selected
+2014-03-24 15:55:41,941 DEBUG main Number To String : Configure succeeded. (Number To String)
+2014-03-24 15:55:41,941 DEBUG main NodeContainer : Setting dirty flag on Number To String 0:23
+2014-03-24 15:55:41,941 DEBUG main NodeContainer : Number To String 0:23 has new state: CONFIGURED
+2014-03-24 15:55:41,941 DEBUG main WorkflowManager : Added new connection from node 0:22(1) to node 0:23(1)
+2014-03-24 15:55:41,941 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:22(1) -> 0:23( 1)];timestamp=2014-03-24 15:55:41]
+2014-03-24 15:55:41,941 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:55:41,967 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:22(1) -> 0:23( 1)]
+2014-03-24 15:55:41,967 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 15:55:41,967 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:22(1) -> 0:23( 1)]
+2014-03-24 15:55:41,967 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 15:55:42,248 DEBUG main NodeContainerEditPart : Column Filter 0:22 (CONFIGURED)
+2014-03-24 15:55:42,248 DEBUG main NodeContainerEditPart : Number To String 0:23 (CONFIGURED)
+2014-03-24 15:55:43,038 DEBUG main NodeContainerEditPart : Number To String 0:23 (CONFIGURED)
+2014-03-24 15:55:43,109 DEBUG main NodeContainerEditPart : Number To String 0:23 (CONFIGURED)
+2014-03-24 15:55:43,152 DEBUG main NodeContainerEditPart : Number To String 0:23 (CONFIGURED)
+2014-03-24 15:55:43,192 DEBUG main NodeContainerEditPart : Number To String 0:23 (CONFIGURED)
+2014-03-24 15:55:45,321 DEBUG main Number To String : reset
+2014-03-24 15:55:45,321 DEBUG main Number To String : clean output ports.
+2014-03-24 15:55:45,321 DEBUG main NodeContainer : Number To String 0:23 has new state: IDLE
+2014-03-24 15:55:45,321 DEBUG main Number To String : Configure succeeded. (Number To String)
+2014-03-24 15:55:45,321 DEBUG main NodeContainer : Number To String 0:23 has new state: CONFIGURED
+2014-03-24 15:55:55,065 DEBUG main Number To String : reset
+2014-03-24 15:55:55,065 DEBUG main Number To String : clean output ports.
+2014-03-24 15:55:55,065 DEBUG main NodeContainer : Number To String 0:23 has new state: IDLE
+2014-03-24 15:55:55,065 DEBUG main Number To String : Configure succeeded. (Number To String)
+2014-03-24 15:55:55,065 DEBUG main NodeContainer : Number To String 0:23 has new state: CONFIGURED
+2014-03-24 15:55:55,872 DEBUG main NodeContainerEditPart : Number To String 0:23 (CONFIGURED)
+2014-03-24 15:55:55,872 DEBUG main NodeContainerEditPart : Column Filter 0:22 (CONFIGURED)
+2014-03-24 15:56:00,016 DEBUG main NodeContainerEditPart : Column Filter 0:22 (CONFIGURED)
+2014-03-24 15:56:00,016 DEBUG main NodeContainerEditPart : Number To String 0:23 (CONFIGURED)
+2014-03-24 15:56:05,809 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 15:56:05,809 DEBUG main NodeContainer : Column Filter 0:22 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 15:56:05,809 DEBUG main NodeContainer : Column Filter 0:22 has new state: CONFIGURED_QUEUED
+2014-03-24 15:56:05,809 DEBUG main NodeContainer : Number To String 0:23 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 15:56:05,809 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 15:56:05,809 DEBUG KNIME-Worker-17 WorkflowManager : Column Filter 0:22 doBeforePreExecution
+2014-03-24 15:56:05,809 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 15:56:05,810 DEBUG KNIME-Worker-17 NodeContainer : Column Filter 0:22 has new state: PREEXECUTE
+2014-03-24 15:56:05,810 DEBUG KNIME-Worker-17 WorkflowManager : Column Filter 0:22 doBeforeExecution
+2014-03-24 15:56:05,810 DEBUG KNIME-Worker-17 NodeContainer : Column Filter 0:22 has new state: EXECUTING
+2014-03-24 15:56:05,811 DEBUG KNIME-Worker-17 LocalNodeExecutionJob : Column Filter 0:22 Start execute
+2014-03-24 15:56:05,811 DEBUG KNIME-Worker-17 WorkflowFileStoreHandlerRepository : Adding handler 53b0fb81-3eb0-49e0-a371-3ae3cf4accd4 (Column Filter 0:22: <no directory>) - 21 in total
+2014-03-24 15:56:05,811 INFO  KNIME-Worker-17 LocalNodeExecutionJob : Column Filter 0:22 End execute (0 secs)
+2014-03-24 15:56:05,811 DEBUG KNIME-Worker-17 WorkflowManager : Column Filter 0:22 doBeforePostExecution
+2014-03-24 15:56:05,811 DEBUG KNIME-Worker-17 NodeContainer : Column Filter 0:22 has new state: POSTEXECUTE
+2014-03-24 15:56:05,811 DEBUG KNIME-Worker-17 WorkflowManager : Column Filter 0:22 doAfterExecute - success
+2014-03-24 15:56:05,811 DEBUG KNIME-Worker-17 NodeContainer : Column Filter 0:22 has new state: EXECUTED
+2014-03-24 15:56:05,811 DEBUG KNIME-Worker-17 Number To String : Configure succeeded. (Number To String)
+2014-03-24 15:56:05,812 DEBUG KNIME-Worker-17 NodeContainer : Number To String 0:23 has new state: CONFIGURED_QUEUED
+2014-03-24 15:56:05,812 DEBUG KNIME-Worker-18 WorkflowManager : Number To String 0:23 doBeforePreExecution
+2014-03-24 15:56:05,812 DEBUG KNIME-Worker-18 NodeContainer : Number To String 0:23 has new state: PREEXECUTE
+2014-03-24 15:56:05,812 DEBUG KNIME-Worker-18 WorkflowManager : Number To String 0:23 doBeforeExecution
+2014-03-24 15:56:05,812 DEBUG KNIME-Worker-18 NodeContainer : Number To String 0:23 has new state: EXECUTING
+2014-03-24 15:56:05,812 DEBUG KNIME-Worker-18 LocalNodeExecutionJob : Number To String 0:23 Start execute
+2014-03-24 15:56:05,812 DEBUG KNIME-Worker-18 WorkflowFileStoreHandlerRepository : Adding handler 22ef24b5-a0e9-43a0-bd74-9c1faf4cb85c (Number To String 0:23: <no directory>) - 22 in total
+2014-03-24 15:56:05,813 DEBUG KNIME-Worker-18 Buffer : Opening input stream on file "/tmp/knime_KNIME_project73423/knime_container_20140324_6699634782822313315.bin.gz", 1 open streams
+2014-03-24 15:56:05,814 DEBUG KNIME-TableIO-13 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 15:56:05,950 DEBUG KNIME-TableIO-13 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 remaining)
+2014-03-24 15:56:08,241 DEBUG KNIME-Worker-18 Buffer : Closing input stream on "/tmp/knime_KNIME_project73423/knime_container_20140324_6699634782822313315.bin.gz", 0 remaining
+2014-03-24 15:56:08,282 DEBUG KNIME-Worker-18 Buffer : Buffer file (/tmp/knime_KNIME_project73423/knime_container_20140324_3087030390474416963.bin.gz) is 1,078MB in size
+2014-03-24 15:56:08,343 INFO  KNIME-Worker-18 LocalNodeExecutionJob : Number To String 0:23 End execute (2 secs)
+2014-03-24 15:56:08,343 DEBUG KNIME-Worker-18 WorkflowManager : Number To String 0:23 doBeforePostExecution
+2014-03-24 15:56:08,343 DEBUG KNIME-Worker-18 NodeContainer : Number To String 0:23 has new state: POSTEXECUTE
+2014-03-24 15:56:08,343 DEBUG KNIME-Worker-18 WorkflowManager : Number To String 0:23 doAfterExecute - success
+2014-03-24 15:56:08,343 DEBUG KNIME-Worker-18 NodeContainer : Number To String 0:23 has new state: EXECUTED
+2014-03-24 15:56:08,343 DEBUG KNIME-Worker-18 NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 15:56:08,343 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 15:56:16,554 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=5049805 data=[org.knime.base.node.preproc.stringreplacer.dict.SearchReplaceDictNodeFactory] x=778 y=199 item=null operations=1 operation=1 feedback=1 dataTypes={ 156 } currentDataType=156}
+2014-03-24 15:56:16,557 DEBUG main WorkflowManager : Added new node 0:24
+2014-03-24 15:56:16,557 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:24;old=null;new=String Replace (Dictionary) 0:24 (IDLE);timestamp=2014-03-24 15:56:16]
+2014-03-24 15:56:16,557 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:56:16,608 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 15:56:16,609 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( String Replace (Dictionary) 0:24 (IDLE) )
+2014-03-24 15:56:16,610 DEBUG main NodeContainerEditPart : Number To String 0:23 (EXECUTED)
+2014-03-24 15:56:17,944 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:24 (IDLE)
+2014-03-24 15:56:17,944 DEBUG main NodeContainerEditPart : Number To String 0:23 (EXECUTED)
+2014-03-24 15:56:18,550 DEBUG main CreateConnectionCommand : adding connection from 0:23 1 to 0:24 1
+2014-03-24 15:56:18,550 WARN  main String Replace (Dictionary) : No settings available
+2014-03-24 15:56:18,550 DEBUG main WorkflowManager : Added new connection from node 0:23(1) to node 0:24(1)
+2014-03-24 15:56:18,550 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:23(1) -> 0:24( 1)];timestamp=2014-03-24 15:56:18]
+2014-03-24 15:56:18,550 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:56:18,575 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:23(1) -> 0:24( 1)]
+2014-03-24 15:56:18,575 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 15:56:18,575 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:23(1) -> 0:24( 1)]
+2014-03-24 15:56:18,576 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 15:56:18,808 DEBUG main NodeContainerEditPart : Number To String 0:23 (EXECUTED)
+2014-03-24 15:56:18,808 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:24 (IDLE)
+2014-03-24 15:56:37,200 DEBUG main NodeContainer : Setting dirty flag on String Replace (Dictionary) 0:24
+2014-03-24 15:56:37,201 DEBUG main String Replace (Dictionary) : Configure succeeded. (String Replace (Dictionary))
+2014-03-24 15:56:37,201 DEBUG main NodeContainer : String Replace (Dictionary) 0:24 has new state: CONFIGURED
+2014-03-24 15:56:38,528 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 15:56:38,529 DEBUG main NodeContainer : String Replace (Dictionary) 0:24 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 15:56:38,529 DEBUG main NodeContainer : String Replace (Dictionary) 0:24 has new state: CONFIGURED_QUEUED
+2014-03-24 15:56:38,530 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 15:56:38,530 DEBUG KNIME-Worker-19 WorkflowManager : String Replace (Dictionary) 0:24 doBeforePreExecution
+2014-03-24 15:56:38,530 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 15:56:38,530 DEBUG KNIME-Worker-19 NodeContainer : String Replace (Dictionary) 0:24 has new state: PREEXECUTE
+2014-03-24 15:56:38,530 DEBUG KNIME-Worker-19 WorkflowManager : String Replace (Dictionary) 0:24 doBeforeExecution
+2014-03-24 15:56:38,530 DEBUG KNIME-Worker-19 NodeContainer : String Replace (Dictionary) 0:24 has new state: EXECUTING
+2014-03-24 15:56:38,530 DEBUG KNIME-Worker-19 LocalNodeExecutionJob : String Replace (Dictionary) 0:24 Start execute
+2014-03-24 15:56:38,531 DEBUG KNIME-Worker-19 WorkflowFileStoreHandlerRepository : Adding handler 6e4b64b2-85ce-4025-ae5d-7a706de78515 (String Replace (Dictionary) 0:24: <no directory>) - 23 in total
+2014-03-24 15:56:38,531 DEBUG KNIME-Worker-19 Buffer : Opening input stream on file "/tmp/knime_KNIME_project73423/knime_container_20140324_3087030390474416963.bin.gz", 1 open streams
+2014-03-24 15:56:38,531 DEBUG KNIME-Worker-19 Buffer : Opening input stream on file "/tmp/knime_KNIME_project73423/knime_container_20140324_6699634782822313315.bin.gz", 1 open streams
+2014-03-24 15:56:38,532 DEBUG KNIME-TableIO-13 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 15:56:39,491 DEBUG KNIME-TableIO-13 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 remaining)
+2014-03-24 15:56:41,169 DEBUG KNIME-Worker-19 Buffer : Closing input stream on "/tmp/knime_KNIME_project73423/knime_container_20140324_6699634782822313315.bin.gz", 0 remaining
+2014-03-24 15:56:41,211 DEBUG KNIME-Worker-19 Buffer : Buffer file (/tmp/knime_KNIME_project73423/knime_container_20140324_456134620608268086.bin.gz) is 0,138MB in size
+2014-03-24 15:56:41,266 INFO  KNIME-Worker-19 LocalNodeExecutionJob : String Replace (Dictionary) 0:24 End execute (2 secs)
+2014-03-24 15:56:41,266 DEBUG KNIME-Worker-19 WorkflowManager : String Replace (Dictionary) 0:24 doBeforePostExecution
+2014-03-24 15:56:41,266 DEBUG KNIME-Worker-19 NodeContainer : String Replace (Dictionary) 0:24 has new state: POSTEXECUTE
+2014-03-24 15:56:41,266 DEBUG KNIME-Worker-19 WorkflowManager : String Replace (Dictionary) 0:24 doAfterExecute - success
+2014-03-24 15:56:41,266 DEBUG KNIME-Worker-19 NodeContainer : String Replace (Dictionary) 0:24 has new state: EXECUTED
+2014-03-24 15:56:41,266 DEBUG KNIME-Worker-19 NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 15:56:41,267 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 15:56:42,744 DEBUG main OpenPortViewAction : Open Port View String Replace (Dictionary) (#1)
+2014-03-24 15:56:42,751 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project73423/knime_container_20140324_456134620608268086.bin.gz", 1 open streams
+2014-03-24 15:56:42,752 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project73423/knime_container_20140324_3087030390474416963.bin.gz", 2 open streams
+2014-03-24 15:56:42,752 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project73423/knime_container_20140324_6699634782822313315.bin.gz", 1 open streams
+2014-03-24 15:56:57,952 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:24 (EXECUTED)
+2014-03-24 15:56:58,023 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTED)
+2014-03-24 15:56:58,026 DEBUG main NodeContainerEditPart : Column Filter 0:22 (EXECUTED)
+2014-03-24 15:56:58,041 DEBUG main NodeContainerEditPart : Number To String 0:23 (EXECUTED)
+2014-03-24 15:56:58,081 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:24 (EXECUTED)
+2014-03-24 15:57:02,792 DEBUG main NodeContainerEditPart : Number To String 0:23 (EXECUTED)
+2014-03-24 15:57:02,792 DEBUG main NodeContainerEditPart : CSV Reader 0:20 (EXECUTED)
+2014-03-24 15:57:02,792 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:24 (EXECUTED)
+2014-03-24 15:57:02,792 DEBUG main NodeContainerEditPart : Column Filter 0:22 (EXECUTED)
+2014-03-24 15:57:03,424 DEBUG main NodeContainerEditPart : Column Filter 0:22 (EXECUTED)
+2014-03-24 15:57:07,248 DEBUG main NodeContainerEditPart : Column Filter 0:22 (EXECUTED)
+2014-03-24 15:57:07,248 DEBUG main NodeContainerEditPart : Number To String 0:23 (EXECUTED)
+2014-03-24 15:57:08,881 DEBUG main NodeContainerEditPart : Number To String 0:23 (EXECUTED)
+2014-03-24 15:57:08,881 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:24 (EXECUTED)
+2014-03-24 15:57:10,511 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 15:57:10,631 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/CSV Reader (#20)"
+2014-03-24 15:57:10,685 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/GroupBy (#21)"
+2014-03-24 15:57:10,686 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Column Filter (#22)"
+2014-03-24 15:57:10,687 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Number To String (#23)"
+2014-03-24 15:57:10,702 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/String Replace _Dictionary_ (#24)"
+2014-03-24 15:57:10,718 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project"
+2014-03-24 15:57:49,831 DEBUG main NodeContainerEditPart : String Replace (Dictionary) 0:24 (EXECUTED)
+2014-03-24 15:57:49,869 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:57:49,936 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:57:52,137 DEBUG main VerifyingCompoundCommand : Executing <1> commands.
+2014-03-24 15:57:52,141 DEBUG main GroupByNodeModel : Removing all (0) views from model.
+2014-03-24 15:57:52,141 DEBUG main GroupBy : clean output ports.
+2014-03-24 15:57:52,141 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 15:57:52,141 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTED
+2014-03-24 15:57:52,141 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 15:57:52]
+2014-03-24 15:57:52,142 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:57:52,142 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=GroupBy 0:21 (IDLE);new=null;timestamp=2014-03-24 15:57:52]
+2014-03-24 15:57:52,142 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 15:57:52,308 DEBUG main NodeContainerEditPart : GroupBy 0:21 (IDLE)
+2014-03-24 15:57:52,478 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 15:57:52,567 DEBUG ModalContext WorkflowManager : Deleted obsolete node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/GroupBy (#21)"
+2014-03-24 15:57:52,577 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project"
