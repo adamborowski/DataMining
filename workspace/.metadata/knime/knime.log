@@ -23575,3 +23575,8 @@ Some numeric column(s) have low variance (are constant): "Pedestrian_Road_Mainte
 2014-03-24 22:39:53,622 DEBUG ModalContext WorkflowManager : Deleted obsolete node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Linear Correlation (#28)"
 2014-03-24 22:39:53,623 DEBUG ModalContext WorkflowManager : Deleted obsolete node directory "/home/adam/Dokumenty/Eksploracja/workspace/KNIME_project/Crosstab (#25)"
 2014-03-24 22:39:53,650 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project"
+2014-03-24 22:58:48,284 DEBUG main NodeContainerEditPart : Linear Correlation 0:37 (EXECUTED)
+2014-03-24 22:58:50,148 DEBUG main OpenViewAction : Open Node View Linear Correlation (#0)
+2014-03-24 22:58:50,256 DEBUG AWT-EventQueue-0 CorrelationComputeNodeModel : Registering view at model (total count 1)
+2014-03-24 22:58:50,256 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project77301/knime_container_20140324_6350691130445745161.bin.gz", 1 open streams
+2014-03-24 23:07:19,734 DEBUG AWT-EventQueue-0 CorrelationComputeNodeModel : Unregistering view from model (0 remaining).
