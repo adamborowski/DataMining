@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="tableSpec">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="14"/>
+<entry key="number_columns" type="xint" value="15"/>
 <config key="column_spec_0">
+<entry key="column_name" type="xstring" value="Accident_Index"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_1">
 <entry key="column_name" type="xstring" value="powaga"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -42,7 +53,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_1">
+<config key="column_spec_2">
 <entry key="column_name" type="xstring" value="liczba_pojazdow"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -66,7 +77,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_2">
+<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="liczba_ofiar"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -90,7 +101,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_3">
+<config key="column_spec_4">
 <entry key="column_name" type="xstring" value="dzien_tygodnia"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -154,7 +165,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_4">
+<config key="column_spec_5">
 <entry key="column_name" type="xstring" value="typ_drogi"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -212,7 +223,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_5">
+<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="limit_predkosci"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -236,7 +247,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_6">
+<config key="column_spec_7">
 <entry key="column_name" type="xstring" value="skrzyzowanie"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -318,7 +329,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_7">
+<config key="column_spec_8">
 <entry key="column_name" type="xstring" value="skrzyzowanie_kontrola"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -376,7 +387,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_8">
+<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="oswietlenie"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -428,7 +439,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_9">
+<config key="column_spec_10">
 <entry key="column_name" type="xstring" value="pogoda"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -504,7 +515,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_10">
+<config key="column_spec_11">
 <entry key="column_name" type="xstring" value="nawierzchnia"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -562,7 +573,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_11">
+<config key="column_spec_12">
 <entry key="column_name" type="xstring" value="zdarzenia_losowe"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -626,7 +637,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_12">
+<config key="column_spec_13">
 <entry key="column_name" type="xstring" value="obszar"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -666,7 +677,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_13">
+<config key="column_spec_14">
 <entry key="column_name" type="xstring" value="godzina"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
