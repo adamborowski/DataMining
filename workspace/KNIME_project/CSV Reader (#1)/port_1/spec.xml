@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="Accidents0512.csv"/>
-<entry key="number_columns" type="xint" value="31"/>
+<entry key="number_columns" type="xint" value="32"/>
 <config key="column_spec_0">
+<entry key="column_name" type="xstring" value="Accident_Index"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_1">
 <entry key="column_name" type="xstring" value="Location_Easting_OSGR"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -26,7 +37,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_1">
+<config key="column_spec_2">
 <entry key="column_name" type="xstring" value="Location_Northing_OSGR"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -50,7 +61,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_2">
+<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="Longitude"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -74,7 +85,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_3">
+<config key="column_spec_4">
 <entry key="column_name" type="xstring" value="Latitude"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -98,7 +109,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_4">
+<config key="column_spec_5">
 <entry key="column_name" type="xstring" value="Police_Force"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -122,7 +133,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_5">
+<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="Accident_Severity"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -146,7 +157,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_6">
+<config key="column_spec_7">
 <entry key="column_name" type="xstring" value="Number_of_Vehicles"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -170,7 +181,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_7">
+<config key="column_spec_8">
 <entry key="column_name" type="xstring" value="Number_of_Casualties"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -194,7 +205,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_8">
+<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="Date"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -205,7 +216,7 @@
 <config key="column_domain"/>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_9">
+<config key="column_spec_10">
 <entry key="column_name" type="xstring" value="Day_of_Week"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -229,7 +240,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_10">
+<config key="column_spec_11">
 <entry key="column_name" type="xstring" value="Time"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -240,7 +251,7 @@
 <config key="column_domain"/>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_11">
+<config key="column_spec_12">
 <entry key="column_name" type="xstring" value="Local_Authority_(District)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -264,7 +275,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_12">
+<config key="column_spec_13">
 <entry key="column_name" type="xstring" value="Local_Authority_(Highway)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -275,7 +286,7 @@
 <config key="column_domain"/>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_13">
+<config key="column_spec_14">
 <entry key="column_name" type="xstring" value="1st_Road_Class"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -299,7 +310,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_14">
+<config key="column_spec_15">
 <entry key="column_name" type="xstring" value="1st_Road_Number"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -323,7 +334,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_15">
+<config key="column_spec_16">
 <entry key="column_name" type="xstring" value="Road_Type"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -347,7 +358,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_16">
+<config key="column_spec_17">
 <entry key="column_name" type="xstring" value="Speed_limit"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -371,7 +382,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_17">
+<config key="column_spec_18">
 <entry key="column_name" type="xstring" value="Junction_Detail"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -395,7 +406,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_18">
+<config key="column_spec_19">
 <entry key="column_name" type="xstring" value="Junction_Control"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -419,7 +430,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_19">
+<config key="column_spec_20">
 <entry key="column_name" type="xstring" value="2nd_Road_Class"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -443,7 +454,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_20">
+<config key="column_spec_21">
 <entry key="column_name" type="xstring" value="2nd_Road_Number"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -467,7 +478,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_21">
+<config key="column_spec_22">
 <entry key="column_name" type="xstring" value="Pedestrian_Crossing-Human_Control"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -491,7 +502,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_22">
+<config key="column_spec_23">
 <entry key="column_name" type="xstring" value="Pedestrian_Crossing-Physical_Facilities"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -515,7 +526,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_23">
+<config key="column_spec_24">
 <entry key="column_name" type="xstring" value="Light_Conditions"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -539,7 +550,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_24">
+<config key="column_spec_25">
 <entry key="column_name" type="xstring" value="Weather_Conditions"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -563,7 +574,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_25">
+<config key="column_spec_26">
 <entry key="column_name" type="xstring" value="Road_Surface_Conditions"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -587,7 +598,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_26">
+<config key="column_spec_27">
 <entry key="column_name" type="xstring" value="Special_Conditions_at_Site"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -611,7 +622,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_27">
+<config key="column_spec_28">
 <entry key="column_name" type="xstring" value="Carriageway_Hazards"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -635,7 +646,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_28">
+<config key="column_spec_29">
 <entry key="column_name" type="xstring" value="Urban_or_Rural_Area"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -659,7 +670,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_29">
+<config key="column_spec_30">
 <entry key="column_name" type="xstring" value="Did_Police_Officer_Attend_Scene_of_Accident"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -683,7 +694,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_30">
+<config key="column_spec_31">
 <entry key="column_name" type="xstring" value="LSOA_of_Accident_Location"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
