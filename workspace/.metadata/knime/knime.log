@@ -19527,3 +19527,1049 @@ Some numeric column(s) have low variance (are constant): "Pedestrian_Road_Mainte
 2014-03-24 17:51:59,763 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 1 remaining
 2014-03-24 17:51:59,763 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 1 remaining
 2014-03-24 17:51:59,773 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 17:53:21,465 DEBUG main NodeContainerEditPart : Scatter Plot 0:43 (EXECUTED)
+2014-03-24 17:53:22,225 DEBUG main NodeContainerEditPart : Scatter Plot 0:43 (EXECUTED)
+2014-03-24 17:53:22,225 DEBUG main NodeContainerEditPart : Histogram 0:42 (EXECUTED)
+2014-03-24 17:53:22,937 DEBUG main NodeContainerEditPart : Histogram 0:42 (EXECUTED)
+2014-03-24 17:53:22,937 DEBUG main NodeContainerEditPart : Scatter Matrix 0:41 (EXECUTED)
+2014-03-24 17:53:25,547 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 17:53:25,547 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 17:53:25]
+2014-03-24 17:53:25,548 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:53:29,009 DEBUG main NodeContainerEditPart : Scatter Plot 0:43 (EXECUTED)
+2014-03-24 17:53:29,009 DEBUG main NodeContainerEditPart : Histogram 0:42 (EXECUTED)
+2014-03-24 17:53:29,010 DEBUG main NodeContainerEditPart : Scatter Matrix 0:41 (EXECUTED)
+2014-03-24 17:53:29,801 DEBUG main NodeContainerEditPart : Scatter Plot 0:43 (EXECUTED)
+2014-03-24 17:53:31,241 DEBUG main NodeContainerEditPart : Scatter Plot 0:43 (EXECUTED)
+2014-03-24 17:53:31,241 DEBUG main NodeContainerEditPart : Histogram 0:42 (EXECUTED)
+2014-03-24 17:53:32,761 DEBUG main NodeContainerEditPart : Histogram 0:42 (EXECUTED)
+2014-03-24 17:53:32,761 DEBUG main NodeContainerEditPart : Scatter Matrix 0:41 (EXECUTED)
+2014-03-24 17:53:36,209 DEBUG main NodeContainerEditPart : Scatter Matrix 0:41 (EXECUTED)
+2014-03-24 17:53:39,633 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:43( 1)]
+2014-03-24 17:53:39,633 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 113, 380, 
+2014-03-24 17:53:50,457 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:42( 1)]
+2014-03-24 17:53:50,457 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 113, 500, 
+2014-03-24 17:53:54,017 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:41( 1)]
+2014-03-24 17:53:54,017 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 113, 600, 
+2014-03-24 17:53:55,096 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 17:54:05,081 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 17:54:08,459 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=12121709 data=[org.knime.base.node.preproc.missingval.MissingValueHandling3NodeFactory] x=475 y=678 item=null operations=1 operation=1 feedback=1 dataTypes={ 155 } currentDataType=155}
+2014-03-24 17:54:08,461 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 17:54:08,462 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:44;old=null;new=Missing Value 0:44 (IDLE);timestamp=2014-03-24 17:54:08]
+2014-03-24 17:54:08,462 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:54:08,462 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 17:54:08,462 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 17:54:08]
+2014-03-24 17:54:08,466 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:54:08,714 DEBUG main WorkflowManager : Added new node 0:44
+2014-03-24 17:54:08,807 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 17:54:08,808 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Missing Value 0:44 (IDLE) )
+2014-03-24 17:54:08,809 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 17:54:09,520 DEBUG main NodeContainerEditPart : Missing Value 0:44 (IDLE)
+2014-03-24 17:54:09,520 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 17:54:13,302 DEBUG main CreateNodeCommand : Undo: Removing node #0:44
+2014-03-24 17:54:13,302 DEBUG main MissingValueHandling3NodeModel : Removing all (0) views from model.
+2014-03-24 17:54:13,302 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:54:13,303 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:54:13,303 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=Missing Value 0:44 (IDLE);new=null;timestamp=2014-03-24 17:54:13]
+2014-03-24 17:54:13,303 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:54:13,904 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 17:54:14,646 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:41( 1)]
+2014-03-24 17:54:14,650 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 
+2014-03-24 17:54:16,014 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:42( 1)]
+2014-03-24 17:54:16,014 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 
+2014-03-24 17:54:17,062 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:42( 1)]
+2014-03-24 17:54:17,062 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 113, 590, 
+2014-03-24 17:54:17,326 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:41( 1)]
+2014-03-24 17:54:17,326 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 113, 690, 
+2014-03-24 17:54:17,886 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 17:54:17,887 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:44;old=null;new=Missing Value 0:44 (IDLE);timestamp=2014-03-24 17:54:17]
+2014-03-24 17:54:17,887 DEBUG main WorkflowManager : Added new node 0:44
+2014-03-24 17:54:17,887 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:54:17,901 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 17:54:17,902 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Missing Value 0:44 (IDLE) )
+2014-03-24 17:54:20,377 DEBUG main NodeContainerEditPart : Missing Value 0:44 (IDLE)
+2014-03-24 17:54:26,096 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:42( 1)]
+2014-03-24 17:54:26,096 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 113, 500, 
+2014-03-24 17:54:36,304 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:41( 1)]
+2014-03-24 17:54:36,304 DEBUG main ConnectionContainerEditPart : modelling info: bendpoints: 113, 600, 
+2014-03-24 17:54:37,456 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 17:54:37,583 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Missing Value (#44)"
+2014-03-24 17:54:37,683 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project"
+2014-03-24 17:54:53,048 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 17:54:54,450 DEBUG main CreateConnectionCommand : adding connection from 0:1 1 to 0:44 1
+2014-03-24 17:54:54,450 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 17:54:54,450 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 17:54:54]
+2014-03-24 17:54:54,451 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:54:54,451 DEBUG main Missing Value : Configure succeeded. (Missing Value)
+2014-03-24 17:54:54,714 DEBUG main NodeContainer : Setting dirty flag on Missing Value 0:44
+2014-03-24 17:54:54,714 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED
+2014-03-24 17:54:54,714 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:54:54,714 DEBUG main WorkflowManager : Added new connection from node 0:1(1) to node 0:44(1)
+2014-03-24 17:54:54,714 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:1(1) -> 0:44( 1)];timestamp=2014-03-24 17:54:54]
+2014-03-24 17:54:54,714 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:54:54,763 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:44( 1)]
+2014-03-24 17:54:54,763 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 17:54:54,764 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:44( 1)]
+2014-03-24 17:54:54,764 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 17:54:56,289 DEBUG main NodeContainerEditPart : CSV Reader 0:1 (EXECUTED)
+2014-03-24 17:54:56,289 DEBUG main NodeContainerEditPart : Missing Value 0:44 (CONFIGURED)
+2014-03-24 17:56:52,888 DEBUG main Missing Value : reset
+2014-03-24 17:56:52,889 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:56:52,890 DEBUG main NodeContainer : Missing Value 0:44 has new state: IDLE
+2014-03-24 17:56:52,894 DEBUG main Missing Value : Configure succeeded. (Missing Value)
+2014-03-24 17:56:52,898 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED
+2014-03-24 17:56:55,296 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 17:56:55,296 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 17:56:55,297 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED_QUEUED
+2014-03-24 17:56:55,297 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 17:56:55,297 DEBUG KNIME-Worker-31 WorkflowManager : Missing Value 0:44 doBeforePreExecution
+2014-03-24 17:56:55,297 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 17:56:55,297 DEBUG KNIME-Worker-31 NodeContainer : Missing Value 0:44 has new state: PREEXECUTE
+2014-03-24 17:56:55,297 DEBUG KNIME-Worker-31 WorkflowManager : Missing Value 0:44 doBeforeExecution
+2014-03-24 17:56:55,297 DEBUG KNIME-Worker-31 NodeContainer : Missing Value 0:44 has new state: EXECUTING
+2014-03-24 17:56:55,297 DEBUG KNIME-Worker-31 LocalNodeExecutionJob : Missing Value 0:44 Start execute
+2014-03-24 17:56:55,298 DEBUG KNIME-Worker-31 WorkflowFileStoreHandlerRepository : Adding handler e4e49150-c187-4c1b-b76f-ddb042b62024 (Missing Value 0:44: <no directory>) - 27 in total
+2014-03-24 17:56:55,298 DEBUG KNIME-Worker-31 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8372162121796726314.bin.gz", 1 open streams
+2014-03-24 17:56:59,991 DEBUG KNIME-Worker-31 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8372162121796726314.bin.gz", 0 remaining
+2014-03-24 17:56:59,994 DEBUG KNIME-Worker-31 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8372162121796726314.bin.gz", 1 open streams
+2014-03-24 17:56:59,994 DEBUG KNIME-TableIO-19 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 17:57:00,242 DEBUG KNIME-TableIO-19 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 remaining)
+2014-03-24 17:57:09,889 DEBUG KNIME-Worker-31 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8372162121796726314.bin.gz", 0 remaining
+2014-03-24 17:57:10,933 DEBUG KNIME-Worker-31 Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_2205554151054548104.bin.gz) is 4,57MB in size
+2014-03-24 17:57:10,935 INFO  KNIME-Worker-31 LocalNodeExecutionJob : Missing Value 0:44 End execute (15 secs)
+2014-03-24 17:57:10,935 DEBUG KNIME-Worker-31 WorkflowManager : Missing Value 0:44 doBeforePostExecution
+2014-03-24 17:57:10,935 DEBUG KNIME-Worker-31 NodeContainer : Missing Value 0:44 has new state: POSTEXECUTE
+2014-03-24 17:57:10,935 DEBUG KNIME-Worker-31 WorkflowManager : Missing Value 0:44 doAfterExecute - success
+2014-03-24 17:57:10,935 DEBUG KNIME-Worker-31 NodeContainer : Missing Value 0:44 has new state: EXECUTED
+2014-03-24 17:57:10,935 DEBUG KNIME-Worker-31 NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:57:10,935 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 17:57:18,048 DEBUG main OpenPortViewAction : Open Port View Missing Value (#1)
+2014-03-24 17:57:18,061 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_2205554151054548104.bin.gz", 1 open streams
+2014-03-24 17:57:32,552 DEBUG main ResetAction : Resetting 1 node(s)
+2014-03-24 17:57:32,552 DEBUG main Missing Value : reset
+2014-03-24 17:57:32,552 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:57:32,553 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_2205554151054548104.bin.gz", 0 remaining
+2014-03-24 17:57:32,554 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler e4e49150-c187-4c1b-b76f-ddb042b62024 (Missing Value 0:44: <no directory>) - 26 remaining
+2014-03-24 17:57:32,554 DEBUG main NodeContainer : Missing Value 0:44 has new state: IDLE
+2014-03-24 17:57:32,555 DEBUG main Missing Value : Configure succeeded. (Missing Value)
+2014-03-24 17:57:32,555 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED
+2014-03-24 17:57:32,556 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_2205554151054548104.bin.gz"
+2014-03-24 17:57:39,784 DEBUG main Missing Value : reset
+2014-03-24 17:57:39,784 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:57:39,785 DEBUG main NodeContainer : Missing Value 0:44 has new state: IDLE
+2014-03-24 17:57:39,785 DEBUG main Missing Value : Configure succeeded. (Missing Value)
+2014-03-24 17:57:39,785 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED
+2014-03-24 17:57:41,896 DEBUG main ExecuteAction : Creating execution job for 1 node(s)...
+2014-03-24 17:57:41,896 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 17:57:41,896 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED_QUEUED
+2014-03-24 17:57:41,897 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 17:57:41,897 DEBUG KNIME-Worker-32 WorkflowManager : Missing Value 0:44 doBeforePreExecution
+2014-03-24 17:57:41,897 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 17:57:41,897 DEBUG KNIME-Worker-32 NodeContainer : Missing Value 0:44 has new state: PREEXECUTE
+2014-03-24 17:57:41,897 DEBUG KNIME-Worker-32 WorkflowManager : Missing Value 0:44 doBeforeExecution
+2014-03-24 17:57:41,897 DEBUG KNIME-Worker-32 NodeContainer : Missing Value 0:44 has new state: EXECUTING
+2014-03-24 17:57:41,897 DEBUG KNIME-Worker-32 LocalNodeExecutionJob : Missing Value 0:44 Start execute
+2014-03-24 17:57:41,897 DEBUG KNIME-Worker-32 WorkflowFileStoreHandlerRepository : Adding handler 88f3fb7e-3773-46ac-8864-751556dcc42b (Missing Value 0:44: <no directory>) - 27 in total
+2014-03-24 17:57:41,898 DEBUG KNIME-Worker-32 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8372162121796726314.bin.gz", 1 open streams
+2014-03-24 17:57:41,898 DEBUG KNIME-TableIO-19 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 17:57:42,182 DEBUG KNIME-TableIO-19 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 remaining)
+2014-03-24 17:57:49,437 DEBUG KNIME-Worker-32 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8372162121796726314.bin.gz", 0 remaining
+2014-03-24 17:57:49,440 DEBUG KNIME-Worker-32 Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_4618332586648348641.bin.gz) is 4,569MB in size
+2014-03-24 17:57:49,440 INFO  KNIME-Worker-32 LocalNodeExecutionJob : Missing Value 0:44 End execute (7 secs)
+2014-03-24 17:57:49,440 DEBUG KNIME-Worker-32 WorkflowManager : Missing Value 0:44 doBeforePostExecution
+2014-03-24 17:57:49,440 DEBUG KNIME-Worker-32 NodeContainer : Missing Value 0:44 has new state: POSTEXECUTE
+2014-03-24 17:57:49,441 DEBUG KNIME-Worker-32 WorkflowManager : Missing Value 0:44 doAfterExecute - success
+2014-03-24 17:57:49,441 DEBUG KNIME-Worker-32 NodeContainer : Missing Value 0:44 has new state: EXECUTED
+2014-03-24 17:57:49,441 DEBUG KNIME-Worker-32 NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:57:49,441 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 17:57:49,442 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_4618332586648348641.bin.gz", 1 open streams
+2014-03-24 17:57:55,774 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:57:55,857 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:57:55,903 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:57:58,279 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:39,769 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=12393020 data=[org.knime.base.node.preproc.valcount.ValueCounterNodeFactory] x=495 y=765 item=null operations=1 operation=1 feedback=1 dataTypes={ 155 } currentDataType=155}
+2014-03-24 17:58:39,773 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 17:58:39,773 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:45;old=null;new=Value Counter 0:45 (IDLE);timestamp=2014-03-24 17:58:39]
+2014-03-24 17:58:39,773 DEBUG main WorkflowManager : Added new node 0:45
+2014-03-24 17:58:39,773 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:58:39,834 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 17:58:39,835 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Value Counter 0:45 (IDLE) )
+2014-03-24 17:58:39,835 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:41,407 DEBUG main NodeContainerEditPart : Value Counter 0:45 (IDLE)
+2014-03-24 17:58:41,407 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:41,530 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:41,530 DEBUG main NodeContainerEditPart : Value Counter 0:45 (IDLE)
+2014-03-24 17:58:42,434 DEBUG main NodeContainerEditPart : Value Counter 0:45 (IDLE)
+2014-03-24 17:58:42,434 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:45,671 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:45,672 DEBUG main NodeContainerEditPart : Value Counter 0:45 (IDLE)
+2014-03-24 17:58:46,871 DEBUG main NodeContainerEditPart : Value Counter 0:45 (IDLE)
+2014-03-24 17:58:46,871 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:51,407 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:52,751 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:53,735 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:58:53,735 DEBUG main NodeContainerEditPart : Value Counter 0:45 (IDLE)
+2014-03-24 17:58:55,593 DEBUG main VerifyingCompoundCommand : Executing <1> commands.
+2014-03-24 17:58:55,593 DEBUG main ValueCounterNodeModel : Removing all (0) views from model.
+2014-03-24 17:58:55,593 DEBUG main Value Counter : clean output ports.
+2014-03-24 17:58:55,593 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:58:55,594 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=Value Counter 0:45 (IDLE);new=null;timestamp=2014-03-24 17:58:55]
+2014-03-24 17:58:55,594 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:58:56,952 DEBUG main NodeContainerEditPart : Missing Value 0:44 (EXECUTED)
+2014-03-24 17:59:26,743 DEBUG main CollapseMetaNodeAction : Creating 'Collapse MetaNode' job for 1 node(s)...
+2014-03-24 17:59:35,631 DEBUG main ResetAction : Resetting 1 node(s)
+2014-03-24 17:59:35,632 DEBUG main Missing Value : reset
+2014-03-24 17:59:35,634 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:35,719 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_4618332586648348641.bin.gz", 0 remaining
+2014-03-24 17:59:35,719 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 88f3fb7e-3773-46ac-8864-751556dcc42b (Missing Value 0:44: <no directory>) - 26 remaining
+2014-03-24 17:59:35,720 DEBUG main NodeContainer : Missing Value 0:44 has new state: IDLE
+2014-03-24 17:59:35,720 DEBUG main Missing Value : Configure succeeded. (Missing Value)
+2014-03-24 17:59:35,720 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED
+2014-03-24 17:59:35,721 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_4618332586648348641.bin.gz"
+2014-03-24 17:59:38,751 DEBUG main CollapseMetaNodeAction : Creating 'Collapse MetaNode' job for 1 node(s)...
+2014-03-24 17:59:40,515 DEBUG main NodeContainer : Metanode 0:45 has new state: EXECUTED
+2014-03-24 17:59:40,515 DEBUG main WorkflowManager : Created subworkflow 0:45
+2014-03-24 17:59:40,515 DEBUG main WorkflowManager : Added new subworkflow 0:45
+2014-03-24 17:59:40,515 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:45;old=null;new=(WFM) Metanode 0:45 (EXECUTED);timestamp=2014-03-24 17:59:40]
+2014-03-24 17:59:40,516 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:40,516 DEBUG main NodeContainer : Metanode 0:45 has new state: CONFIGURED
+2014-03-24 17:59:40,517 DEBUG main Missing Value : reset
+2014-03-24 17:59:40,517 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:40,517 DEBUG main NodeContainer : Setting dirty flag on Missing Value 0:45:44
+2014-03-24 17:59:40,517 DEBUG main NodeContainer : Setting dirty flag on Metanode 0:45
+2014-03-24 17:59:40,517 DEBUG main NodeContainer : Missing Value 0:45:44 has new state: IDLE
+2014-03-24 17:59:40,517 DEBUG main NodeContainer : Metanode 0:45 has new state: IDLE
+2014-03-24 17:59:40,517 DEBUG main WorkflowManager : Added new connection from node 0:45(0) to node 0:45:44(1)
+2014-03-24 17:59:40,517 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 17:59:40,517 DEBUG main Missing Value : reset
+2014-03-24 17:59:40,518 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:40,518 DEBUG main NodeContainer : Missing Value 0:44 has new state: IDLE
+2014-03-24 17:59:40,518 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:1(1) -> 0:44( 1)];new=null;timestamp=2014-03-24 17:59:40]
+2014-03-24 17:59:40,518 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:40,519 DEBUG main Missing Value : Configure succeeded. (Missing Value)
+2014-03-24 17:59:40,519 DEBUG main NodeContainer : Missing Value 0:45:44 has new state: CONFIGURED
+2014-03-24 17:59:40,519 DEBUG main NodeContainer : Metanode 0:45 has new state: CONFIGURED
+2014-03-24 17:59:40,519 DEBUG main Workflow : Triggering graph analysis on 0:45
+2014-03-24 17:59:40,522 DEBUG main WorkflowManager : Added new connection from node 0:1(1) to node 0:45(0)
+2014-03-24 17:59:40,522 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:1(1) -> 0:45( 0)];timestamp=2014-03-24 17:59:40]
+2014-03-24 17:59:40,522 DEBUG main MissingValueHandling3NodeModel : Removing all (0) views from model.
+2014-03-24 17:59:40,522 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:40,522 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:40,522 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:59:40,522 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=Missing Value 0:44 (IDLE);new=null;timestamp=2014-03-24 17:59:40]
+2014-03-24 17:59:40,523 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:40,553 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:45( 0)]
+2014-03-24 17:59:40,553 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 17:59:40,587 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 17:59:40,590 DEBUG main WorkflowRootEditPart : part: SubworkflowEditPart( (WFM) Metanode 0:45 (CONFIGURED) )
+2014-03-24 17:59:40,591 DEBUG main NodeContainerEditPart : Missing Value 0:44 (IDLE)
+2014-03-24 17:59:40,598 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:45( 0)]
+2014-03-24 17:59:40,598 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 17:59:46,149 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:44;old=null;new=Missing Value 0:44 (CONFIGURED);timestamp=2014-03-24 17:59:46]
+2014-03-24 17:59:46,149 DEBUG main Missing Value : reset
+2014-03-24 17:59:46,149 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:46,154 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:46,154 DEBUG main NodeContainer : Setting dirty flag on Missing Value 0:44
+2014-03-24 17:59:46,154 DEBUG main NodeContainer : Missing Value 0:44 has new state: IDLE
+2014-03-24 17:59:46,154 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 17:59:46,155 DEBUG main Missing Value : Configure succeeded. (Missing Value)
+2014-03-24 17:59:46,155 DEBUG main NodeContainer : Missing Value 0:44 has new state: CONFIGURED
+2014-03-24 17:59:46,155 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:59:46,155 DEBUG main WorkflowManager : Added new connection from node 0:1(1) to node 0:44(1)
+2014-03-24 17:59:46,155 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:1(1) -> 0:44( 1)];timestamp=2014-03-24 17:59:46]
+2014-03-24 17:59:46,155 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:46,155 DEBUG main Missing Value : reset
+2014-03-24 17:59:46,155 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:46,155 DEBUG main NodeContainer : Missing Value 0:45:44 has new state: IDLE
+2014-03-24 17:59:46,155 DEBUG main NodeContainer : Metanode 0:45 has new state: IDLE
+2014-03-24 17:59:46,156 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 17:59:46,156 DEBUG main MissingValueHandling3NodeModel : Removing all (0) views from model.
+2014-03-24 17:59:46,156 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:46,156 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:1(1) -> 0:45( 0)];new=null;timestamp=2014-03-24 17:59:46]
+2014-03-24 17:59:46,156 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:59:46,156 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:46,156 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=(WFM) Metanode 0:45 (IDLE);new=null;timestamp=2014-03-24 17:59:46]
+2014-03-24 17:59:46,156 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:46,161 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:44( 1)]
+2014-03-24 17:59:46,161 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 17:59:46,298 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 17:59:46,305 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Missing Value 0:44 (CONFIGURED) )
+2014-03-24 17:59:46,306 DEBUG main NodeContainerEditPart : (WFM) Metanode 0:45 (IDLE)
+2014-03-24 17:59:46,313 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:1(1) -> 0:44( 1)]
+2014-03-24 17:59:46,314 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 17:59:47,421 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 17:59:47,538 DEBUG ModalContext WorkflowManager : Deleted obsolete node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Missing Value (#44)"
+2014-03-24 17:59:47,539 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Missing Value (#44)"
+2014-03-24 17:59:48,981 DEBUG main NodeContainerEditPart : Missing Value 0:44 (CONFIGURED)
+2014-03-24 17:59:55,808 DEBUG main NodeContainerEditPart : Missing Value 0:44 (CONFIGURED)
+2014-03-24 17:59:58,357 DEBUG main VerifyingCompoundCommand : Executing <1> commands.
+2014-03-24 17:59:58,357 DEBUG main Missing Value : reset
+2014-03-24 17:59:58,358 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:58,362 DEBUG main NodeContainer : Setting dirty flag on Missing Value 0:44
+2014-03-24 17:59:58,366 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 17:59:58,370 DEBUG main NodeContainer : Missing Value 0:44 has new state: IDLE
+2014-03-24 17:59:58,370 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 17:59:58]
+2014-03-24 17:59:58,374 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 17:59:58,374 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:58,386 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:1(1) -> 0:44( 1)];new=null;timestamp=2014-03-24 17:59:58]
+2014-03-24 17:59:58,390 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:58,378 DEBUG main MissingValueHandling3NodeModel : Removing all (0) views from model.
+2014-03-24 17:59:58,710 DEBUG main Missing Value : clean output ports.
+2014-03-24 17:59:58,710 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 17:59:58,711 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=Missing Value 0:44 (IDLE);new=null;timestamp=2014-03-24 17:59:58]
+2014-03-24 17:59:58,711 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 17:59:59,758 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 17:59:59,845 DEBUG ModalContext WorkflowManager : Deleted obsolete node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Missing Value (#44)"
+2014-03-24 17:59:59,886 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project"
+2014-03-24 18:00:58,824 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=12532075 data=[org.knime.base.node.viz.plotter.box.BoxPlotNodeFactory] x=510 y=751 item=null operations=1 operation=1 feedback=1 dataTypes={ 155 } currentDataType=155}
+2014-03-24 18:00:58,831 DEBUG main NodeContainer : Setting dirty flag on KNIME_project 0
+2014-03-24 18:00:58,831 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:44;old=null;new=Box Plot 0:44 (IDLE);timestamp=2014-03-24 18:00:58]
+2014-03-24 18:00:58,831 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 18:00:58,831 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:00:58,831 DEBUG main WorkflowManager : Added new node 0:44
+2014-03-24 18:00:58,831 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=2014-03-24 18:00:58]
+2014-03-24 18:00:58,831 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:00:58,886 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 18:00:58,887 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Box Plot 0:44 (IDLE) )
+2014-03-24 18:01:13,183 DEBUG main NodeContainerEditPart : Box Plot 0:44 (IDLE)
+2014-03-24 18:01:13,183 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 18:01:15,462 DEBUG main CreateConnectionCommand : adding connection from 0:14 1 to 0:44 1
+2014-03-24 18:01:15,466 DEBUG main Box Plot : Configure succeeded. (Box Plot)
+2014-03-24 18:01:15,470 DEBUG main NodeContainer : Setting dirty flag on Box Plot 0:44
+2014-03-24 18:01:15,474 DEBUG main NodeContainer : Box Plot 0:44 has new state: CONFIGURED
+2014-03-24 18:01:15,478 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:01:15,482 DEBUG main WorkflowManager : Added new connection from node 0:14(1) to node 0:44(1)
+2014-03-24 18:01:15,482 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:14(1) -> 0:44( 1)];timestamp=2014-03-24 18:01:15]
+2014-03-24 18:01:15,534 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:01:15,581 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:44( 1)]
+2014-03-24 18:01:15,581 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 18:01:15,582 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:44( 1)]
+2014-03-24 18:01:15,582 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 18:01:16,062 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 18:01:16,062 DEBUG main NodeContainerEditPart : Box Plot 0:44 (CONFIGURED)
+2014-03-24 18:01:21,591 DEBUG main ExecuteAndOpenViewAction : Creating 'Execute and Open Views' job for 1 node(s)...
+2014-03-24 18:01:21,591 DEBUG main NodeContainer : Box Plot 0:44 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 18:01:21,592 DEBUG main NodeContainer : Box Plot 0:44 has new state: CONFIGURED_QUEUED
+2014-03-24 18:01:21,726 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 18:01:21,726 DEBUG KNIME-Worker-33 WorkflowManager : Box Plot 0:44 doBeforePreExecution
+2014-03-24 18:01:21,726 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 18:01:21,726 DEBUG KNIME-Worker-33 NodeContainer : Box Plot 0:44 has new state: PREEXECUTE
+2014-03-24 18:01:21,726 DEBUG KNIME-Worker-33 WorkflowManager : Box Plot 0:44 doBeforeExecution
+2014-03-24 18:01:21,726 DEBUG KNIME-Worker-33 NodeContainer : Box Plot 0:44 has new state: EXECUTING
+2014-03-24 18:01:21,727 DEBUG KNIME-Worker-33 LocalNodeExecutionJob : Box Plot 0:44 Start execute
+2014-03-24 18:01:21,727 DEBUG KNIME-Worker-33 WorkflowFileStoreHandlerRepository : Adding handler 88c87ece-0ed1-4455-ab8c-f307783d7794 (Box Plot 0:44: <no directory>) - 27 in total
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 open streams
+2014-03-24 18:01:21,728 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 open streams
+2014-03-24 18:01:21,729 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 open streams
+2014-03-24 18:01:21,729 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 open streams
+2014-03-24 18:01:21,729 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:01:24,282 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:01:24,370 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (2 in total)
+2014-03-24 18:01:24,629 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 remaining)
+2014-03-24 18:01:25,320 DEBUG Service Thread MemoryObjectTracker : Low memory encountered. Used memory: 254 MB; maximum memory: 341 MB.
+2014-03-24 18:01:25,320 DEBUG KNIME-Memory-Cleaner MemoryObjectTracker : Trying to release 1 memory objects
+2014-03-24 18:01:25,374 DEBUG KNIME-Memory-Cleaner Buffer : Wrote 100000 rows in order to free memory
+2014-03-24 18:01:25,374 DEBUG KNIME-Memory-Cleaner Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz) is 0,017MB in size
+2014-03-24 18:01:25,374 DEBUG KNIME-Memory-Cleaner MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (0 remaining)
+2014-03-24 18:01:25,374 DEBUG KNIME-Memory-Cleaner MemoryObjectTracker : 0/1 tracked objects have been released (0 remaining)
+2014-03-24 18:01:28,690 DEBUG KNIME-Worker-33 Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_7507493424319127200.bin.gz) is 1,322MB in size
+2014-03-24 18:01:28,703 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7507493424319127200.bin.gz", 1 open streams
+2014-03-24 18:01:29,424 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7507493424319127200.bin.gz", 0 remaining
+2014-03-24 18:01:29,425 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7507493424319127200.bin.gz", 1 open streams
+2014-03-24 18:01:30,037 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7507493424319127200.bin.gz", 0 remaining
+2014-03-24 18:01:30,038 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 open streams
+2014-03-24 18:01:30,042 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:01:30,046 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:01:30,050 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:01:30,054 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:01:30,058 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:01:30,062 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:01:30,066 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:01:30,070 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:01:30,070 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:01:30,070 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:01:30,070 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:01:30,070 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:01:32,695 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:01:32,695 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:01:32,698 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:01:32,702 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:01:32,706 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:01:32,710 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:01:32,714 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:01:32,718 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:01:32,722 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:01:32,726 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:01:32,730 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:01:33,107 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:01:33,192 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 in total)
+2014-03-24 18:01:33,368 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (0 remaining)
+2014-03-24 18:01:37,101 DEBUG KNIME-Worker-33 Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_4315920097817626099.bin.gz) is 1,324MB in size
+2014-03-24 18:01:37,102 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_4315920097817626099.bin.gz", 1 open streams
+2014-03-24 18:01:37,781 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_4315920097817626099.bin.gz", 0 remaining
+2014-03-24 18:01:37,781 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_4315920097817626099.bin.gz", 1 open streams
+2014-03-24 18:01:38,398 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_4315920097817626099.bin.gz", 0 remaining
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:01:38,399 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:01:41,872 DEBUG AWT-EventQueue-0 DefaultVisualizationNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:01:41,873 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:01:41,874 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:01:41,878 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:01:41,882 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:01:41,886 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:01:42,831 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:01:42,904 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 in total)
+2014-03-24 18:01:43,054 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (0 remaining)
+2014-03-24 18:01:47,724 DEBUG KNIME-Worker-33 Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_4031311430844977891.bin.gz) is 1,314MB in size
+2014-03-24 18:01:47,725 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_4031311430844977891.bin.gz", 1 open streams
+2014-03-24 18:01:48,640 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_4031311430844977891.bin.gz", 0 remaining
+2014-03-24 18:01:48,641 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_4031311430844977891.bin.gz", 1 open streams
+2014-03-24 18:01:49,275 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_4031311430844977891.bin.gz", 0 remaining
+2014-03-24 18:01:49,276 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:01:49,276 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:01:49,276 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:01:49,276 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:01:49,277 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:01:52,267 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:01:52,268 DEBUG Finalizer Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:01:52,523 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:01:52,665 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 in total)
+2014-03-24 18:01:52,830 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (0 remaining)
+2014-03-24 18:01:56,802 DEBUG KNIME-Worker-33 Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_1712508549821304020.bin.gz) is 1,32MB in size
+2014-03-24 18:01:56,806 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1712508549821304020.bin.gz", 1 open streams
+2014-03-24 18:01:57,535 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1712508549821304020.bin.gz", 0 remaining
+2014-03-24 18:01:57,535 DEBUG KNIME-TableIO-21 MemoryObjectTracker : Adding org.knime.core.data.container.Buffer$BufferMemoryReleasable (1 in total)
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:01:57,536 DEBUG KNIME-Worker-33 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:01:57,537 INFO  KNIME-Worker-33 LocalNodeExecutionJob : Box Plot 0:44 End execute (35 secs)
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 WorkflowManager : Box Plot 0:44 doBeforePostExecution
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 NodeContainer : Box Plot 0:44 has new state: POSTEXECUTE
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 WorkflowManager : Box Plot 0:44 doAfterExecute - success
+2014-03-24 18:01:57,537 DEBUG KNIME-Worker-33 NodeContainer : Box Plot 0:44 has new state: EXECUTED
+2014-03-24 18:01:57,538 DEBUG KNIME-Worker-33 NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:01:57,538 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 18:01:57,538 DEBUG main OpenViewAction : Open Node View Box Plot (#0)
+2014-03-24 18:01:57,577 DEBUG AWT-EventQueue-0 BoxPlotNodeModel : Registering view at model (total count 1)
+2014-03-24 18:07:19,573 DEBUG AWT-EventQueue-0 BoxPlotNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 18:07:23,692 DEBUG main NodeContainerEditPart : Box Plot 0:44 (EXECUTED)
+2014-03-24 18:07:27,500 DEBUG main NodeContainerEditPart : Histogram 0:19 (CONFIGURED)
+2014-03-24 18:07:29,986 DEBUG main Histogram : reset
+2014-03-24 18:07:29,986 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:45;old=null;new=Histogram 0:45 (CONFIGURED);timestamp=2014-03-24 18:07:29]
+2014-03-24 18:07:29,986 DEBUG main Histogram : clean output ports.
+2014-03-24 18:07:29,994 DEBUG main NodeContainer : Setting dirty flag on Histogram 0:45
+2014-03-24 18:07:29,994 DEBUG main NodeContainer : Histogram 0:45 has new state: IDLE
+2014-03-24 18:07:29,994 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 18:07:29,994 DEBUG main NodeContainerEditPart : Histogram 0:19 (CONFIGURED)
+2014-03-24 18:07:30,002 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:07:30,207 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart( limit prędkości )
+2014-03-24 18:07:30,208 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Histogram 0:45 (IDLE) )
+2014-03-24 18:07:31,860 DEBUG main NodeContainerEditPart : Histogram 0:45 (IDLE)
+2014-03-24 18:07:31,860 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 18:07:32,995 DEBUG main CreateConnectionCommand : adding connection from 0:14 1 to 0:45 1
+2014-03-24 18:07:32,996 WARN  main Histogram : Column Accident_Index contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2014-03-24 18:07:32,996 DEBUG main Histogram : Configure succeeded. (Histogram)
+2014-03-24 18:07:32,996 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED
+2014-03-24 18:07:32,996 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:07:32,996 DEBUG main WorkflowManager : Added new connection from node 0:14(1) to node 0:45(1)
+2014-03-24 18:07:32,996 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:14(1) -> 0:45( 1)];timestamp=2014-03-24 18:07:32]
+2014-03-24 18:07:32,996 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:07:33,031 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:45( 1)]
+2014-03-24 18:07:33,032 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 18:07:33,032 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:45( 1)]
+2014-03-24 18:07:33,033 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 18:07:33,796 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 18:07:38,980 DEBUG main NodeContainerEditPart : Histogram 0:45 (CONFIGURED)
+2014-03-24 18:07:52,324 DEBUG main Histogram : reset
+2014-03-24 18:07:52,325 DEBUG main Histogram : clean output ports.
+2014-03-24 18:07:52,326 DEBUG main NodeContainer : Histogram 0:45 has new state: IDLE
+2014-03-24 18:07:52,330 WARN  main Histogram : Column Accident_Index contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2014-03-24 18:07:52,334 DEBUG main Histogram : Configure succeeded. (Histogram)
+2014-03-24 18:07:52,338 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED
+2014-03-24 18:07:54,868 DEBUG main Histogram : reset
+2014-03-24 18:07:54,869 DEBUG main Histogram : clean output ports.
+2014-03-24 18:07:54,869 DEBUG main NodeContainer : Histogram 0:45 has new state: IDLE
+2014-03-24 18:07:54,869 WARN  main Histogram : Column Accident_Index contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2014-03-24 18:07:54,870 DEBUG main Histogram : Configure succeeded. (Histogram)
+2014-03-24 18:07:54,870 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED
+2014-03-24 18:07:56,349 DEBUG main ExecuteAndOpenViewAction : Creating 'Execute and Open Views' job for 1 node(s)...
+2014-03-24 18:07:56,349 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 18:07:56,349 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED_QUEUED
+2014-03-24 18:07:56,349 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 WorkflowManager : Histogram 0:45 doBeforePreExecution
+2014-03-24 18:07:56,350 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 NodeContainer : Histogram 0:45 has new state: PREEXECUTE
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 WorkflowManager : Histogram 0:45 doBeforeExecution
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 NodeContainer : Histogram 0:45 has new state: EXECUTING
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 LocalNodeExecutionJob : Histogram 0:45 Start execute
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 WorkflowFileStoreHandlerRepository : Adding handler 96d85145-bc82-47ed-9dfa-d6d436080dd4 (Histogram 0:45: <no directory>) - 28 in total
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 AbstractHistogramNodeModel : Entering execute(inData, exec) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 FixedColumnHistogramNodeModel : Entering createHistogramModel(exec, table) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 FixedHistogramDataModel : Entering HistogramDataModel(xColSpec, aggrColumns) of class HistogramDataModel.
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 FixedHistogramDataModel : Exiting HistogramDataModel(xColSpec, aggrColumns) of class HistogramDataModel.
+2014-03-24 18:07:56,350 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:07:56,351 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:07:56,352 DEBUG KNIME-Worker-34 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:07:58,537 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 FixedColumnHistogramNodeModel : Exiting createHistogramModel(exec, table) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 AbstractHistogramNodeModel : Exiting execute(inData, exec) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:07:58,538 INFO  KNIME-Worker-34 LocalNodeExecutionJob : Histogram 0:45 End execute (2 secs)
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 WorkflowManager : Histogram 0:45 doBeforePostExecution
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 NodeContainer : Histogram 0:45 has new state: POSTEXECUTE
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 WorkflowManager : Histogram 0:45 doAfterExecute - success
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 NodeContainer : Histogram 0:45 has new state: EXECUTED
+2014-03-24 18:07:58,538 DEBUG KNIME-Worker-34 NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:07:58,538 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 18:07:58,561 DEBUG main OpenViewAction : Open Node View Histogram (#0)
+2014-03-24 18:07:58,564 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Registering view at model (total count 1)
+2014-03-24 18:07:58,564 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Entering getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:07:58,575 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Time for cloning. 11 ms
+2014-03-24 18:07:58,575 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Exiting getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:08:49,029 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 18:10:02,316 DEBUG main OpenViewAction : Open Node View Histogram (#0)
+2014-03-24 18:10:02,320 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Registering view at model (total count 1)
+2014-03-24 18:10:02,320 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Entering getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:10:02,326 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Time for cloning. 5 ms
+2014-03-24 18:10:02,326 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Exiting getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:15:08,339 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 18:15:18,936 DEBUG main Histogram : reset
+2014-03-24 18:15:18,936 DEBUG main Histogram : clean output ports.
+2014-03-24 18:15:18,936 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 96d85145-bc82-47ed-9dfa-d6d436080dd4 (Histogram 0:45: <no directory>) - 27 remaining
+2014-03-24 18:15:18,936 DEBUG main NodeContainer : Histogram 0:45 has new state: IDLE
+2014-03-24 18:15:18,936 WARN  main Histogram : Column Accident_Index contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2014-03-24 18:15:18,936 DEBUG main Histogram : Configure succeeded. (Histogram)
+2014-03-24 18:15:18,936 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED
+2014-03-24 18:15:20,434 DEBUG main ExecuteAndOpenViewAction : Creating 'Execute and Open Views' job for 1 node(s)...
+2014-03-24 18:15:20,434 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 18:15:20,434 DEBUG main NodeContainer : Histogram 0:45 has new state: CONFIGURED_QUEUED
+2014-03-24 18:15:20,435 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 18:15:20,435 DEBUG KNIME-Worker-35 WorkflowManager : Histogram 0:45 doBeforePreExecution
+2014-03-24 18:15:20,435 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 18:15:20,435 DEBUG KNIME-Worker-35 NodeContainer : Histogram 0:45 has new state: PREEXECUTE
+2014-03-24 18:15:20,435 DEBUG KNIME-Worker-35 WorkflowManager : Histogram 0:45 doBeforeExecution
+2014-03-24 18:15:20,435 DEBUG KNIME-Worker-35 NodeContainer : Histogram 0:45 has new state: EXECUTING
+2014-03-24 18:15:20,435 DEBUG KNIME-Worker-35 LocalNodeExecutionJob : Histogram 0:45 Start execute
+2014-03-24 18:15:20,435 DEBUG KNIME-Worker-35 WorkflowFileStoreHandlerRepository : Adding handler 555ca437-73ec-47e1-a0e7-776804c9ce6a (Histogram 0:45: <no directory>) - 28 in total
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 AbstractHistogramNodeModel : Entering execute(inData, exec) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 FixedColumnHistogramNodeModel : Entering createHistogramModel(exec, table) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 FixedHistogramDataModel : Entering HistogramDataModel(xColSpec, aggrColumns) of class HistogramDataModel.
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 FixedHistogramDataModel : Exiting HistogramDataModel(xColSpec, aggrColumns) of class HistogramDataModel.
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:15:20,436 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:15:20,437 DEBUG KNIME-Worker-35 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:15:22,665 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 FixedColumnHistogramNodeModel : Exiting createHistogramModel(exec, table) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 AbstractHistogramNodeModel : Exiting execute(inData, exec) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:15:22,666 INFO  KNIME-Worker-35 LocalNodeExecutionJob : Histogram 0:45 End execute (2 secs)
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 WorkflowManager : Histogram 0:45 doBeforePostExecution
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 NodeContainer : Histogram 0:45 has new state: POSTEXECUTE
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 WorkflowManager : Histogram 0:45 doAfterExecute - success
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 NodeContainer : Histogram 0:45 has new state: EXECUTED
+2014-03-24 18:15:22,666 DEBUG KNIME-Worker-35 NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:15:22,666 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 18:15:22,673 DEBUG main OpenViewAction : Open Node View Histogram (#0)
+2014-03-24 18:15:22,675 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Registering view at model (total count 1)
+2014-03-24 18:15:22,675 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Entering getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:15:22,685 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Time for cloning. 10 ms
+2014-03-24 18:15:22,685 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Exiting getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:23:29,647 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 18:23:33,689 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=13886940 data=[org.knime.base.node.viz.pie.node.fixed.FixedPieNodeFactory] x=629 y=741 item=null operations=1 operation=1 feedback=1 dataTypes={ 155 } currentDataType=155}
+2014-03-24 18:23:33,695 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 18:23:33,695 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:46;old=null;new=Pie chart 0:46 (IDLE);timestamp=2014-03-24 18:23:33]
+2014-03-24 18:23:33,695 DEBUG main WorkflowManager : Added new node 0:46
+2014-03-24 18:23:33,695 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:23:33,770 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 18:23:33,775 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Pie chart 0:46 (IDLE) )
+2014-03-24 18:23:33,778 DEBUG main NodeContainerEditPart : Histogram 0:45 (EXECUTED)
+2014-03-24 18:23:36,262 DEBUG main NodeContainerEditPart : Pie chart 0:46 (IDLE)
+2014-03-24 18:23:36,262 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 18:23:36,953 DEBUG main CreateConnectionCommand : adding connection from 0:14 1 to 0:46 1
+2014-03-24 18:23:36,953 WARN  main Pie chart : Please select the pie column
+2014-03-24 18:23:36,953 DEBUG main WorkflowManager : Added new connection from node 0:14(1) to node 0:46(1)
+2014-03-24 18:23:36,953 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:14(1) -> 0:46( 1)];timestamp=2014-03-24 18:23:36]
+2014-03-24 18:23:36,954 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:23:36,978 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:46( 1)]
+2014-03-24 18:23:36,978 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 18:23:36,987 DEBUG main ConnectionContainerEditPart : refreshing visuals for: STD[0:14(1) -> 0:46( 1)]
+2014-03-24 18:23:36,987 DEBUG main ConnectionContainerEditPart : modelling info: null
+2014-03-24 18:23:37,383 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 18:23:37,383 DEBUG main NodeContainerEditPart : Pie chart 0:46 (IDLE)
+2014-03-24 18:24:06,591 DEBUG main NodeContainer : Setting dirty flag on Pie chart 0:46
+2014-03-24 18:24:06,591 DEBUG main Pie chart : Configure succeeded. (Pie chart)
+2014-03-24 18:24:06,594 DEBUG main NodeContainer : Pie chart 0:46 has new state: CONFIGURED
+2014-03-24 18:24:06,598 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:24:08,623 DEBUG main ExecuteAndOpenViewAction : Creating 'Execute and Open Views' job for 1 node(s)...
+2014-03-24 18:24:08,623 DEBUG main NodeContainer : Pie chart 0:46 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 18:24:08,626 DEBUG main NodeContainer : Pie chart 0:46 has new state: CONFIGURED_QUEUED
+2014-03-24 18:24:08,726 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 18:24:08,730 DEBUG KNIME-Worker-36 WorkflowManager : Pie chart 0:46 doBeforePreExecution
+2014-03-24 18:24:08,730 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 18:24:08,730 DEBUG KNIME-Worker-36 NodeContainer : Pie chart 0:46 has new state: PREEXECUTE
+2014-03-24 18:24:08,730 DEBUG KNIME-Worker-36 WorkflowManager : Pie chart 0:46 doBeforeExecution
+2014-03-24 18:24:08,730 DEBUG KNIME-Worker-36 NodeContainer : Pie chart 0:46 has new state: EXECUTING
+2014-03-24 18:24:08,730 DEBUG KNIME-Worker-36 LocalNodeExecutionJob : Pie chart 0:46 Start execute
+2014-03-24 18:24:08,730 DEBUG KNIME-Worker-36 WorkflowFileStoreHandlerRepository : Adding handler a5709a26-9bf0-4d0f-bec1-00336956bd91 (Pie chart 0:46: <no directory>) - 29 in total
+2014-03-24 18:24:08,731 WARN  KNIME-Worker-36 Pie chart : Only the first 2500 of 100000 rows are displayed.
+2014-03-24 18:24:08,738 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:24:08,738 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:24:08,738 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:24:08,739 DEBUG KNIME-Worker-36 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:24:08,799 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:24:08,799 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:24:08,799 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:24:08,799 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:24:08,800 DEBUG KNIME-Worker-36 FixedPieDataModel : Entering getClonedSections() of class FixedPieDataModel.
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 FixedPieDataModel : Time for cloning. 3 ms
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 FixedPieDataModel : Exiting getClonedSections() of class FixedPieDataModel.
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 FixedPieDataModel : Entering getClonedMissingSection() of class FixedPieDataModel.
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 FixedPieDataModel : Time for cloning. 0 ms
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 FixedPieDataModel : Exiting getClonedMissingSection() of class FixedPieDataModel.
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 PieNodeModel : Time to validate model: 3 ms
+2014-03-24 18:24:08,803 INFO  KNIME-Worker-36 LocalNodeExecutionJob : Pie chart 0:46 End execute (0 secs)
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 WorkflowManager : Pie chart 0:46 doBeforePostExecution
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 NodeContainer : Pie chart 0:46 has new state: POSTEXECUTE
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 WorkflowManager : Pie chart 0:46 doAfterExecute - success
+2014-03-24 18:24:08,803 DEBUG KNIME-Worker-36 NodeContainer : Pie chart 0:46 has new state: EXECUTED
+2014-03-24 18:24:08,804 DEBUG KNIME-Worker-36 NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:24:08,804 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 18:24:08,815 DEBUG main OpenViewAction : Open Node View Pie chart (#0)
+2014-03-24 18:24:08,819 DEBUG AWT-EventQueue-0 FixedPieNodeModel : Registering view at model (total count 1)
+2014-03-24 18:24:08,819 DEBUG AWT-EventQueue-0 FixedPieDataModel : Entering getClonedSections() of class FixedPieDataModel.
+2014-03-24 18:24:08,821 DEBUG AWT-EventQueue-0 FixedPieDataModel : Time for cloning. 1 ms
+2014-03-24 18:24:08,821 DEBUG AWT-EventQueue-0 FixedPieDataModel : Exiting getClonedSections() of class FixedPieDataModel.
+2014-03-24 18:24:08,821 DEBUG AWT-EventQueue-0 FixedPieDataModel : Entering getClonedMissingSection() of class FixedPieDataModel.
+2014-03-24 18:24:08,821 DEBUG AWT-EventQueue-0 FixedPieDataModel : Time for cloning. 0 ms
+2014-03-24 18:24:08,821 DEBUG AWT-EventQueue-0 FixedPieDataModel : Exiting getClonedMissingSection() of class FixedPieDataModel.
+2014-03-24 18:25:03,448 DEBUG AWT-EventQueue-0 FixedPieNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 18:25:04,679 DEBUG main NodeContainerEditPart : Pie chart 0:46 (EXECUTED)
+2014-03-24 18:25:05,134 DEBUG main NodeContainerEditPart : Pie chart 0:46 (EXECUTED)
+2014-03-24 18:25:06,704 DEBUG main VerifyingCompoundCommand : Executing <1> commands.
+2014-03-24 18:25:06,705 DEBUG main Pie chart : reset
+2014-03-24 18:25:06,705 DEBUG main Pie chart : clean output ports.
+2014-03-24 18:25:06,705 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler a5709a26-9bf0-4d0f-bec1-00336956bd91 (Pie chart 0:46: <no directory>) - 28 remaining
+2014-03-24 18:25:06,705 DEBUG main NodeContainer : Pie chart 0:46 has new state: IDLE
+2014-03-24 18:25:06,705 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 18:25:06,705 DEBUG main FixedPieNodeModel : Removing all (0) views from model.
+2014-03-24 18:25:06,706 DEBUG main Pie chart : clean output ports.
+2014-03-24 18:25:06,706 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:14(1) -> 0:46( 1)];new=null;timestamp=2014-03-24 18:25:06]
+2014-03-24 18:25:06,706 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:25:06,706 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:25:06,714 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=Pie chart 0:46 (IDLE);new=null;timestamp=2014-03-24 18:25:06]
+2014-03-24 18:25:06,718 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:25:13,920 DEBUG main NodeTemplateDropTargetListener2 : drop: DropTargetEvent{DropTarget {} time=13987171 data=[org.knime.base.node.viz.histogram.node.FixedColumnHistogramNodeFactory] x=729 y=776 item=null operations=1 operation=1 feedback=1 dataTypes={ 155 } currentDataType=155}
+2014-03-24 18:25:13,923 DEBUG main NodeContainer : KNIME_project 0 has new state: IDLE
+2014-03-24 18:25:13,923 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:46;old=null;new=Histogram 0:46 (IDLE);timestamp=2014-03-24 18:25:13]
+2014-03-24 18:25:13,930 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:25:14,718 DEBUG main WorkflowManager : Added new node 0:46
+2014-03-24 18:25:14,770 DEBUG main WorkflowRootEditPart : part: NodeAnnotationEditPart(  )
+2014-03-24 18:25:14,778 DEBUG main WorkflowRootEditPart : part: NodeContainerEditPart( Histogram 0:46 (IDLE) )
+2014-03-24 18:25:17,326 DEBUG main NodeContainerEditPart : Histogram 0:46 (IDLE)
+2014-03-24 18:25:24,791 DEBUG main NodeContainerEditPart : Histogram 0:46 (IDLE)
+2014-03-24 18:25:26,392 DEBUG main VerifyingCompoundCommand : Executing <1> commands.
+2014-03-24 18:25:26,393 DEBUG main FixedColumnHistogramNodeModel : Removing all (0) views from model.
+2014-03-24 18:25:26,394 DEBUG main Histogram : clean output ports.
+2014-03-24 18:25:26,398 DEBUG main NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:25:26,402 DEBUG KNIME-Workflow-Notifier WorkflowEditor : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=Histogram 0:46 (IDLE);new=null;timestamp=2014-03-24 18:25:26]
+2014-03-24 18:25:26,402 DEBUG KNIME-Workflow-Notifier WorkflowRootEditPart : WorkflowRoot: workflow changed, refreshing children/connections..
+2014-03-24 18:25:27,734 DEBUG main NodeContainerEditPart : Histogram 0:19 (CONFIGURED)
+2014-03-24 18:25:29,967 DEBUG main ExecuteAndOpenViewAction : Creating 'Execute and Open Views' job for 1 node(s)...
+2014-03-24 18:25:29,967 DEBUG main NodeContainer : Setting dirty flag on Histogram 0:19
+2014-03-24 18:25:29,967 DEBUG main NodeContainer : Histogram 0:19 has new state: CONFIGURED_MARKEDFOREXEC
+2014-03-24 18:25:29,968 DEBUG main NodeContainer : Histogram 0:19 has new state: CONFIGURED_QUEUED
+2014-03-24 18:25:29,969 DEBUG main NodeContainer : KNIME_project 0 has new state: EXECUTING
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 WorkflowManager : Histogram 0:19 doBeforePreExecution
+2014-03-24 18:25:29,969 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: EXECUTING
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 NodeContainer : Histogram 0:19 has new state: PREEXECUTE
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 WorkflowManager : Histogram 0:19 doBeforeExecution
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 NodeContainer : Histogram 0:19 has new state: EXECUTING
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 LocalNodeExecutionJob : Histogram 0:19 Start execute
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 WorkflowFileStoreHandlerRepository : Adding handler 52f48a04-3d3e-424d-b963-676374a0a1ca (Histogram 0:19: <no directory>) - 29 in total
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 AbstractHistogramNodeModel : Entering execute(inData, exec) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 FixedColumnHistogramNodeModel : Entering createHistogramModel(exec, table) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:25:29,969 DEBUG KNIME-Worker-37 FixedHistogramDataModel : Entering HistogramDataModel(xColSpec, aggrColumns) of class HistogramDataModel.
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 FixedHistogramDataModel : Exiting HistogramDataModel(xColSpec, aggrColumns) of class HistogramDataModel.
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:25:29,970 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:25:29,971 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:25:29,971 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:25:29,971 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:25:29,971 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:25:29,971 DEBUG KNIME-Worker-37 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 FixedColumnHistogramNodeModel : Exiting createHistogramModel(exec, table) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 AbstractHistogramNodeModel : Exiting execute(inData, exec) of class FixedColumnHistogramNodeModel.
+2014-03-24 18:25:32,209 INFO  KNIME-Worker-37 LocalNodeExecutionJob : Histogram 0:19 End execute (2 secs)
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 WorkflowManager : Histogram 0:19 doBeforePostExecution
+2014-03-24 18:25:32,209 DEBUG KNIME-Worker-37 NodeContainer : Histogram 0:19 has new state: POSTEXECUTE
+2014-03-24 18:25:32,210 DEBUG KNIME-Worker-37 WorkflowManager : Histogram 0:19 doAfterExecute - success
+2014-03-24 18:25:32,210 DEBUG KNIME-Worker-37 NodeContainer : Histogram 0:19 has new state: EXECUTED
+2014-03-24 18:25:32,210 DEBUG KNIME-Worker-37 NodeContainer : KNIME_project 0 has new state: CONFIGURED
+2014-03-24 18:25:32,210 DEBUG KNIME-WFM-Parent-Notifier NodeContainer : ROOT  has new state: IDLE
+2014-03-24 18:25:32,210 DEBUG main OpenViewAction : Open Node View Histogram (#0)
+2014-03-24 18:25:32,212 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Registering view at model (total count 1)
+2014-03-24 18:25:32,212 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Entering getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:25:32,223 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Time for cloning. 11 ms
+2014-03-24 18:25:32,223 DEBUG AWT-EventQueue-0 FixedHistogramDataModel : Exiting getClonedBins() of class FixedHistogramDataModel.
+2014-03-24 18:26:46,967 DEBUG AWT-EventQueue-0 FixedColumnHistogramNodeModel : Unregistering view from model (0 remaining).
+2014-03-24 18:30:59,108 DEBUG main NodeContainerEditPart : Histogram 0:19 (EXECUTED)
+2014-03-24 18:30:59,108 DEBUG main NodeContainerEditPart : Column Rename 0:14 (EXECUTED)
+2014-03-24 18:31:03,021 DEBUG main OpenPortViewAction : Open Port View Column Rename (#1)
+2014-03-24 18:31:03,025 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 2 open streams
+2014-03-24 18:31:03,026 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 3 open streams
+2014-03-24 18:31:03,034 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 3 open streams
+2014-03-24 18:31:03,038 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 3 open streams
+2014-03-24 18:31:03,042 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 3 open streams
+2014-03-24 18:31:03,046 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 3 open streams
+2014-03-24 18:31:03,050 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 3 open streams
+2014-03-24 18:31:03,054 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 3 open streams
+2014-03-24 18:31:03,058 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 3 open streams
+2014-03-24 18:31:03,062 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 3 open streams
+2014-03-24 18:31:03,066 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 3 open streams
+2014-03-24 18:31:03,070 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 3 open streams
+2014-03-24 18:31:03,074 DEBUG AWT-EventQueue-0 Buffer : Opening input stream on file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 2 open streams
+2014-03-24 18:32:55,896 DEBUG main WorkflowEditor : Saving workflow ...
+2014-03-24 18:32:56,017 DEBUG ModalContext FileSingleNodeContainerPersistor : Replaced node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Histogram (#19)"
+2014-03-24 18:32:57,543 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Box Plot (#44)"
+2014-03-24 18:32:57,786 DEBUG ModalContext Buffer : Buffer file (/tmp/knime_KNIME_project89043/knime_container_20140324_9006556164103325529.bin.gz) is 0MB in size
+2014-03-24 18:32:58,022 DEBUG ModalContext FileSingleNodeContainerPersistor : Created node directory "/home/adam/projekty/DataMining/workspace/KNIME_project/Histogram (#45)"
+2014-03-24 18:32:58,263 DEBUG ModalContext LocalWorkspaceContentProvider : Refreshing "/KNIME_project"
+2014-03-24 18:32:58,437 DEBUG main WorkflowRootEditPart : WorkflowRootEditPart deactivated
+2014-03-24 18:32:58,441 DEBUG main WorkflowEditor : Disposing editor...
+2014-03-24 18:32:58,441 DEBUG main ProjectWorkflowMap : unregistering org.knime.workbench.editor2.WorkflowEditor@9839bc from file:/home/adam/projekty/DataMining/workspace/KNIME_project/. 0 left.
+2014-03-24 18:32:58,441 DEBUG main ProjectWorkflowMap : Removing "file:/home/adam/projekty/DataMining/workspace/KNIME_project/" from project map (0 remaining)
+2014-03-24 18:32:58,443 DEBUG main WorkflowManager : Removing project "KNIME_project 0"
+2014-03-24 18:32:58,444 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 555ca437-73ec-47e1-a0e7-776804c9ce6a (Histogram 0:45: <no directory>) - 28 remaining
+2014-03-24 18:32:58,444 DEBUG main FixedColumnHistogramNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,444 DEBUG main Histogram : clean output ports.
+2014-03-24 18:32:58,444 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 88c87ece-0ed1-4455-ab8c-f307783d7794 (Box Plot 0:44: <no directory>) - 27 remaining
+2014-03-24 18:32:58,444 DEBUG main BoxPlotNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,445 DEBUG main Box Plot : clean output ports.
+2014-03-24 18:32:58,445 DEBUG main MemoryObjectTracker : Removing org.knime.core.data.container.Buffer$BufferMemoryReleasable (0 remaining)
+2014-03-24 18:32:58,446 DEBUG main FixedColumnHistogramNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,446 DEBUG main Histogram : clean output ports.
+2014-03-24 18:32:58,446 DEBUG main CorrelationComputeNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,446 DEBUG main Linear Correlation : clean output ports.
+2014-03-24 18:32:58,448 DEBUG main CrosstabNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,448 DEBUG main Crosstab : clean output ports.
+2014-03-24 18:32:58,448 DEBUG main DefaultVisualizationNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,448 DEBUG main Scatter Plot : clean output ports.
+2014-03-24 18:32:58,448 DEBUG main DefaultVisualizationNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,448 DEBUG main Scatter Matrix : clean output ports.
+2014-03-24 18:32:58,448 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 52f48a04-3d3e-424d-b963-676374a0a1ca (Histogram 0:19: <no directory>) - 26 remaining
+2014-03-24 18:32:58,448 DEBUG main FixedColumnHistogramNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,448 DEBUG main Histogram : clean output ports.
+2014-03-24 18:32:58,448 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_4031311430844977891.bin.gz"
+2014-03-24 18:32:58,448 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler e94f2cc9-e006-485a-bf8d-6be9c26b89c0 (Column Rename 0:14: <no directory>) - 25 remaining
+2014-03-24 18:32:58,448 DEBUG main RenameNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,448 DEBUG main Column Rename : clean output ports.
+2014-03-24 18:32:58,449 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler fcf19c53-50c1-4c32-a290-694a9c289f08 (String Replace (Dictionary) 0:13: <no directory>) - 24 remaining
+2014-03-24 18:32:58,449 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_1712508549821304020.bin.gz"
+2014-03-24 18:32:58,449 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,449 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,449 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 1 remaining
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz", 0 remaining
+2014-03-24 18:32:58,450 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,450 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler fcce945d-27bc-49a5-8ac8-8e879e7d96ed (String Replace (Dictionary) 0:12: <no directory>) - 23 remaining
+2014-03-24 18:32:58,450 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,450 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,450 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_7507493424319127200.bin.gz"
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 2 remaining
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 1 remaining
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz", 0 remaining
+2014-03-24 18:32:58,450 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,450 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 6e6baf01-1556-46c5-9c10-0fc39ae8926a (String Replace (Dictionary) 0:11: <no directory>) - 22 remaining
+2014-03-24 18:32:58,450 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,450 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 2 remaining
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 1 remaining
+2014-03-24 18:32:58,450 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_4315920097817626099.bin.gz"
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz", 0 remaining
+2014-03-24 18:32:58,450 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_5506657738935578701.bin.gz"
+2014-03-24 18:32:58,450 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,450 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler e910e9b6-efaf-410a-bd53-1a2cfaeace62 (String Replace (Dictionary) 0:10: <no directory>) - 21 remaining
+2014-03-24 18:32:58,450 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,450 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 2 remaining
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 1 remaining
+2014-03-24 18:32:58,450 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz", 0 remaining
+2014-03-24 18:32:58,450 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,450 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler ea037fa1-92f4-4032-9582-33e56d94798c (String Replace (Dictionary) 0:9: <no directory>) - 20 remaining
+2014-03-24 18:32:58,450 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,450 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,451 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_5367474656069657916.bin.gz"
+2014-03-24 18:32:58,451 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_969024628897512094.bin.gz"
+2014-03-24 18:32:58,451 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_7206012793402253953.bin.gz"
+2014-03-24 18:32:58,451 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 2 remaining
+2014-03-24 18:32:58,451 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 1 remaining
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz", 0 remaining
+2014-03-24 18:32:58,452 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,452 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_6191747036154655446.bin.gz"
+2014-03-24 18:32:58,452 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 062bad69-2e6b-4434-9aef-8b52b934e831 (String Replace (Dictionary) 0:8: <no directory>) - 19 remaining
+2014-03-24 18:32:58,452 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,452 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 2 remaining
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 1 remaining
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz", 0 remaining
+2014-03-24 18:32:58,452 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,452 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_5608431069946154095.bin.gz"
+2014-03-24 18:32:58,452 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 3b31a291-6bbc-4ffd-856a-9dba8b5bdb3e (String Replace (Dictionary) 0:7: <no directory>) - 18 remaining
+2014-03-24 18:32:58,452 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,452 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 2 remaining
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 1 remaining
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz", 0 remaining
+2014-03-24 18:32:58,452 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,452 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler c896a90e-6dd4-40ab-b9ad-f78f0e66715c (String Replace (Dictionary) 0:6: <no directory>) - 17 remaining
+2014-03-24 18:32:58,452 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,452 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 2 remaining
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 1 remaining
+2014-03-24 18:32:58,452 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz", 0 remaining
+2014-03-24 18:32:58,452 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,452 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler dac8befa-cd97-42b5-8c3d-bf70a3dff1da (String Replace (Dictionary) 0:3: <no directory>) - 16 remaining
+2014-03-24 18:32:58,452 DEBUG main SearchReplaceDictNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,452 DEBUG main String Replace (Dictionary) : clean output ports.
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 2 remaining
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 1 remaining
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz", 0 remaining
+2014-03-24 18:32:58,453 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,453 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 0d765868-b2c2-4d95-bd77-6597e0805e87 (Number To String 0:5: <no directory>) - 15 remaining
+2014-03-24 18:32:58,453 DEBUG main NumberToStringNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,453 DEBUG main Number To String : clean output ports.
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 2 remaining
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 1 remaining
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz", 0 remaining
+2014-03-24 18:32:58,453 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 58523232-e9fd-4589-ae65-da24f2001f35 (Column Filter 0:4: <no directory>) - 14 remaining
+2014-03-24 18:32:58,453 DEBUG main DataColumnSpecFilterNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,453 DEBUG main Column Filter : clean output ports.
+2014-03-24 18:32:58,453 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 45f5c754-6af8-452c-8edc-8cfdfdbdff63 (Time Field Extractor 0:18: <no directory>) - 13 remaining
+2014-03-24 18:32:58,453 DEBUG main TimeFieldExtractorNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,453 DEBUG main Time Field Extractor : clean output ports.
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 2 remaining
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 1 remaining
+2014-03-24 18:32:58,453 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz", 0 remaining
+2014-03-24 18:32:58,453 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,453 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler c9eb6b44-de35-4aa7-9fce-100810333ecb (Linear Correlation 0:37: <no directory>) - 12 remaining
+2014-03-24 18:32:58,453 DEBUG main CorrelationComputeNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,453 DEBUG main Linear Correlation : clean output ports.
+2014-03-24 18:32:58,453 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,453 DEBUG main CorrelationComputeNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,453 DEBUG main Linear Correlation : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 4bcba20d-6b39-47f7-b2f1-d9a9d96224dc (Linear Correlation 0:30: <no directory>) - 11 remaining
+2014-03-24 18:32:58,454 DEBUG main CorrelationComputeNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Linear Correlation : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,454 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 1b7565a3-a708-4894-834e-7b7c0ebd9316 (String to Date/Time 0:17: <no directory>) - 10 remaining
+2014-03-24 18:32:58,454 DEBUG main String2DateNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main String to Date/Time : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 2 remaining
+2014-03-24 18:32:58,454 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 1 remaining
+2014-03-24 18:32:58,454 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz", 0 remaining
+2014-03-24 18:32:58,454 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,454 DEBUG main CorrelationComputeNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Linear Correlation : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler d0e2696f-cbc2-498d-8d11-2df008b0a224 (Joiner 0:36: <no directory>) - 9 remaining
+2014-03-24 18:32:58,454 DEBUG main Joiner2NodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Joiner : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler d2c2c229-0aef-4db9-84f5-71169fb2c839 (Linear Correlation 0:39: <no directory>) - 8 remaining
+2014-03-24 18:32:58,454 DEBUG main CorrelationComputeNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Linear Correlation : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,454 DEBUG main Joiner2NodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Joiner : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 4f052ed6-c0f2-403f-b4f2-79f15b9f23a1 (Scatter Plot 0:43: <no directory>) - 7 remaining
+2014-03-24 18:32:58,454 DEBUG main DefaultVisualizationNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Scatter Plot : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 415a45cc-7bd6-444d-a7fd-42606d90ec55 (Scatter Matrix 0:41: <no directory>) - 6 remaining
+2014-03-24 18:32:58,454 DEBUG main DefaultVisualizationNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Scatter Matrix : clean output ports.
+2014-03-24 18:32:58,454 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler d10ec5d1-3032-4a33-85fa-3fbf86b12461 (Histogram 0:42: <no directory>) - 5 remaining
+2014-03-24 18:32:58,454 DEBUG main FixedColumnHistogramNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,454 DEBUG main Histogram : clean output ports.
+2014-03-24 18:32:58,455 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 27e4770f-d01c-4287-8416-6db77f1ff503 (Linear Correlation 0:38: <no directory>) - 4 remaining
+2014-03-24 18:32:58,455 DEBUG main CorrelationComputeNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,455 DEBUG main Linear Correlation : clean output ports.
+2014-03-24 18:32:58,455 DEBUG main MemoryObjectTracker : Attempted to remove org.knime.core.data.container.Buffer$BufferMemoryReleasable, which was not tracked
+2014-03-24 18:32:58,455 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler bf905e95-4ba8-42b7-8830-793331e967e6 (Joiner 0:31: <no directory>) - 3 remaining
+2014-03-24 18:32:58,455 DEBUG main Joiner2NodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,455 DEBUG main Joiner : clean output ports.
+2014-03-24 18:32:58,455 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler 05af337b-2da1-419b-9652-74018574e3c4 (Missing Value 0:2: <no directory>) - 2 remaining
+2014-03-24 18:32:58,455 DEBUG main MissingValueHandling3NodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,455 DEBUG main Missing Value : clean output ports.
+2014-03-24 18:32:58,455 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 1 remaining
+2014-03-24 18:32:58,455 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz", 0 remaining
+2014-03-24 18:32:58,455 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler ed381444-c393-41e2-a0fb-e2db34b70a7c (CSV Reader 0:32: <no directory>) - 1 remaining
+2014-03-24 18:32:58,455 DEBUG main CSVReaderNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,455 DEBUG main CSV Reader : clean output ports.
+2014-03-24 18:32:58,455 DEBUG main Buffer : Closing input stream on "/tmp/knime_KNIME_project89043/knime_container_20140324_1720037547474345330.bin.gz", 0 remaining
+2014-03-24 18:32:58,455 DEBUG main WorkflowFileStoreHandlerRepository : Removing handler b0d16a5c-e2c8-46f4-a6eb-644f719c8dea (CSV Reader 0:20: <no directory>) - 0 remaining
+2014-03-24 18:32:58,455 DEBUG main CSVReaderNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,455 DEBUG main CSV Reader : clean output ports.
+2014-03-24 18:32:58,455 DEBUG main CSVReaderNodeModel : Removing all (0) views from model.
+2014-03-24 18:32:58,455 DEBUG main CSV Reader : clean output ports.
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_3883635389588403154.bin.gz"
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_7358232981475762821.bin.gz"
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_7511085235022481154.bin.gz"
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_8350998896205301642.bin.gz"
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_8618636112718075497.bin.gz"
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_743768437907746830.bin.gz"
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_3996809140782411212.bin.gz"
+2014-03-24 18:32:58,456 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_1429990549853695123.bin.gz"
+2014-03-24 18:32:58,457 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_4753806270786197082.bin.gz"
+2014-03-24 18:32:58,458 DEBUG main WorkflowManager : Project "KNIME_project 0" removed (1 remaining)
+2014-03-24 18:32:58,458 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_1894262807367127948.bin.gz"
+2014-03-24 18:32:58,459 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_4234567523841461102.bin.gz"
+2014-03-24 18:32:58,459 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_5523617707073255468.bin.gz"
+2014-03-24 18:32:58,459 DEBUG KNIME-Temp-File-Deleter Buffer : Failed to delete temporary directory "/tmp/knime_KNIME_project89043/knime_container_20140324_5858165395363043321.bin.gz"
+2014-03-24 18:32:58,460 DEBUG KNIME-Temp-File-Deleter Buffer : Failed to delete temporary directory "/tmp/knime_KNIME_project89043/knime_container_20140324_3511934056180142248.bin.gz"
+2014-03-24 18:32:58,461 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_5611656249474710334.bin.gz"
+2014-03-24 18:32:58,461 DEBUG KNIME-Temp-File-Deleter Buffer : Failed to delete temporary directory "/tmp/knime_KNIME_project89043/knime_container_20140324_7489244888065066375.bin.gz"
+2014-03-24 18:32:58,461 DEBUG KNIME-Temp-File-Deleter Buffer : Deleted temporary file "/tmp/knime_KNIME_project89043/knime_container_20140324_8286690069535958083.bin.gz"
+2014-03-24 18:32:58,461 DEBUG KNIME-Temp-File-Deleter Buffer : Failed to delete temporary directory "/tmp/knime_KNIME_project89043/knime_container_20140324_1720037547474345330.bin.gz"
+2014-03-24 18:32:58,461 DEBUG KNIME-Temp-File-Deleter Buffer : Failed to delete temporary directory "/tmp/knime_KNIME_project89043/knime_container_20140324_2311531747201098748.bin.gz"
+2014-03-24 18:32:58,462 DEBUG KNIME-Temp-File-Deleter Buffer : Failed to delete temporary directory "/tmp/knime_KNIME_project89043/knime_container_20140324_8372162121796726314.bin.gz"

@@ -26,17 +26,15 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="HistogramXColName" type="xstring" value="limit_predkosci"/>
+<entry key="HistogramXColName" type="xstring" value="liczba_ofiar"/>
 <config key="aggrColumn_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_colorColumns"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="aggrColumn">
 <config key="colorColumnNames">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="liczba_ofiar"/>
+<entry key="array-size" type="xint" value="0"/>
 </config>
-<entry key="liczba_ofiar" type="xint" value="-65536"/>
 </config>
 <config key="noOfBins_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
@@ -45,12 +43,12 @@
 <entry key="noOfBins" type="xint" value="10"/>
 </config>
 <config key="nodeAnnotation">
-<entry key="text" type="xstring" value="limit prędkości"/>
+<entry key="text" type="xstring" value="ilosc samochodow%%00010"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="247"/>
-<entry key="y-coordinate" type="xint" value="1111"/>
-<entry key="width" type="xint" value="117"/>
-<entry key="height" type="xint" value="15"/>
+<entry key="x-coordinate" type="xint" value="364"/>
+<entry key="y-coordinate" type="xint" value="1231"/>
+<entry key="width" type="xint" value="122"/>
+<entry key="height" type="xint" value="30"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <config key="styles"/>
 </config>
@@ -62,6 +60,6 @@
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="52f48a04-3d3e-424d-b963-676374a0a1ca"/>
+<entry key="file_store_id" type="xstring" value="555ca437-73ec-47e1-a0e7-776804c9ce6a"/>
 </config>
 </config>
