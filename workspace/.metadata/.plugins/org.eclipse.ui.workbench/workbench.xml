@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="65" y="24">
+<window height="768" maximized="true" width="1020" x="97" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar/>
 <coolbarLayout>
@@ -17,12 +17,19 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: KNIME_project" title="0: KNIME_project" tooltip="0: KNIME_project" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
+<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: predykcja" title="0: predykcja" tooltip="0: predykcja" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/predykcja/workflow.knime"/>
 </editor>
 </editors>
 <views>
@@ -149,33 +156,56 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project(2)/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/predykcja/workflow.knime"/>
 </editors>
-<item active="true" historyLabel="2: KNIME_project" index="0"/>
+<item historyLabel="2: KNIME_project" index="0"/>
+<item historyLabel="0: KNIME_project(2)" index="1"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item active="true" historyLabel="0: predykcja" index="2"/>
 </navigationHistory>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@fe154dd"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@128a8150"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1ed9f356"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@447bd8da"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@432fb4b2"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@71003493"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/predykcja/workflow.knime">
+<persistable uri="knime://LOCAL/predykcja/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project(2)/workflow.knime">
+<persistable uri="knime://LOCAL/KNIME_project(2)/workflow.knime"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project/workflow.knime">
 <persistable uri="knime://LOCAL/KNIME_project/workflow.knime"/>
 </file>
