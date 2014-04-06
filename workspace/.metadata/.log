@@ -446,3 +446,14 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.core.resources 2 10035 2014-03-24 21:44:02.088
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-04-06 13:52:36.567 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pl_PL
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 2 2014-04-06 16:17:47.318
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2014-04-06 16:17:47.318
+!MESSAGE The project description file (.project) for 'KNIME_project(2)' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
