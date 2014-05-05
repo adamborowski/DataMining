@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1020" x="97" y="24">
+<window height="739" maximized="true" width="1014" x="95" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar/>
 <coolbarLayout>
@@ -19,16 +19,14 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: predykcja" title="0: predykcja" tooltip="0: predykcja" workbook="DefaultEditorWorkbook">
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: weka" title="0: weka" tooltip="0: weka" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/weka/workflow.knime"/>
+</editor>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="2: predykcja" title="2: predykcja" tooltip="2: predykcja" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/predykcja/workflow.knime"/>
 </editor>
 </editors>
@@ -54,7 +52,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.knime.workbench.editor.WorkflowEditor" activePerspective="org.knime.workbench.ui.ModellerPerspective">
+<perspectives activePart="org.knime.workbench.repository.view.RepositoryView" activePerspective="org.knime.workbench.ui.ModellerPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.knime.workbench.ui.perspective.ModellerPerspectiveFactory" id="org.knime.workbench.ui.ModellerPerspective" label="KNIME"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -158,6 +156,9 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project(2)/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/predykcja/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/weka/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/predykcja/workflow.knime"/>
 </editors>
 <item historyLabel="2: KNIME_project" index="0"/>
 <item historyLabel="0: KNIME_project(2)" index="1"/>
@@ -184,7 +185,11 @@
 <item historyLabel="0: predykcja" index="2"/>
 <item historyLabel="0: predykcja" index="2"/>
 <item historyLabel="0: predykcja" index="2"/>
-<item active="true" historyLabel="0: predykcja" index="2"/>
+<item historyLabel="0: predykcja" index="2"/>
+<item historyLabel="2: KNIME_project" index="3"/>
+<item historyLabel="0: weka" index="4"/>
+<item historyLabel="2: predykcja" index="5"/>
+<item active="true" historyLabel="0: weka" index="4"/>
 </navigationHistory>
 </page>
 <workbenchWindowAdvisor/>
@@ -203,11 +208,14 @@
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/predykcja/workflow.knime">
 <persistable uri="knime://LOCAL/predykcja/workflow.knime"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project(2)/workflow.knime">
-<persistable uri="knime://LOCAL/KNIME_project(2)/workflow.knime"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/weka/workflow.knime">
+<persistable uri="knime://LOCAL/weka/workflow.knime"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project/workflow.knime">
 <persistable uri="knime://LOCAL/KNIME_project/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/KNIME_project(2)/workflow.knime">
+<persistable uri="knime://LOCAL/KNIME_project(2)/workflow.knime"/>
 </file>
 </mruList>
 </workbench>
