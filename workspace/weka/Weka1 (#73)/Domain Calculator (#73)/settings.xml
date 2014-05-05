@@ -13,14 +13,12 @@
 </config>
 <config key="model">
 <config key="possible_values_columns">
-<entry key="array-size" type="xint" value="7"/>
+<entry key="array-size" type="xint" value="5"/>
 <entry key="0" type="xstring" value="powaga"/>
-<entry key="1" type="xstring" value="liczba_pojazdow"/>
-<entry key="2" type="xstring" value="dzien_tygodnia"/>
-<entry key="3" type="xstring" value="limit_predkosci"/>
-<entry key="4" type="xstring" value="oswietlenie"/>
-<entry key="5" type="xstring" value="pogoda"/>
-<entry key="6" type="xstring" value="zdarzenia_losowe"/>
+<entry key="1" type="xstring" value="dzien_tygodnia"/>
+<entry key="2" type="xstring" value="oswietlenie"/>
+<entry key="3" type="xstring" value="pogoda"/>
+<entry key="4" type="xstring" value="zdarzenia_losowe"/>
 </config>
 <config key="min_max_columns">
 <entry key="array-size" type="xint" value="2"/>
@@ -28,8 +26,8 @@
 <entry key="1" type="xstring" value="limit_predkosci"/>
 </config>
 <entry key="max_poss_values" type="xint" value="60"/>
-<entry key="possible_values_unselected_retain" type="xboolean" value="true"/>
-<entry key="min_max_unselected_retain" type="xboolean" value="true"/>
+<entry key="possible_values_unselected_retain" type="xboolean" value="false"/>
+<entry key="min_max_unselected_retain" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -47,6 +45,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f7aa90a1-d499-4f20-ab56-4480f548e5cf"/>
+<entry key="file_store_id" type="xstring" value="b69a3d2f-5c43-4188-9662-b30260662f6a"/>
 </config>
 </config>
