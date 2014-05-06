@@ -15,7 +15,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="ClassColumn" type="xstring" value="zdarzenia_losowe"/>
+<entry key="ClassColumn" type="xstring" value="powaga"/>
 <entry key="Serialized Weka-Classifier" type="xstring" value="rO0ABXNyABt3ZWthLmNsYXNzaWZpZXJzLnJ1bGVzLlBBUlRwtTRUUYw22QIACUYABG1fQ0ZJAAZtX1NlZWRaAA5tX2JpbmFyeVNwbGl0c0kAC21fbWluTnVtT2JqSQAKbV9udW1Gb2xkc1oAFW1fcmVkdWNlZEVycm9yUHJ1bmluZ1oACm1fdW5wcnVuZWRaABJtX3VzZU1ETGNvcnJlY3Rpb25MAAZtX3Jvb3R0AClMd2VrYS9jbGFzc2lmaWVycy9ydWxlcy9wYXJ0L01ha2VEZWNMaXN0O3hyACN3ZWthLmNsYXNzaWZpZXJzLkFic3RyYWN0Q2xhc3NpZmllclo+hCG9JiNNAgABWgAHbV9EZWJ1Z3hwAD4ZmZoAAAABAAAAAAIAAAADAAABcA=="/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -36,6 +36,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="49b44388-f4ba-435d-ba7e-4a4d7292cd20"/>
+<entry key="file_store_id" type="xstring" value="85701ae3-db29-4d0d-9e3c-be0a57c50747"/>
 </config>
 </config>
