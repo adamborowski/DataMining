@@ -19,23 +19,18 @@
 <entry key="Serialized Weka-Classifier" type="xstring" value="rO0ABXNyABt3ZWthLmNsYXNzaWZpZXJzLnJ1bGVzLlBBUlRwtTRUUYw22QIACUYABG1fQ0ZJAAZtX1NlZWRaAA5tX2JpbmFyeVNwbGl0c0kAC21fbWluTnVtT2JqSQAKbV9udW1Gb2xkc1oAFW1fcmVkdWNlZEVycm9yUHJ1bmluZ1oACm1fdW5wcnVuZWRaABJtX3VzZU1ETGNvcnJlY3Rpb25MAAZtX3Jvb3R0AClMd2VrYS9jbGFzc2lmaWVycy9ydWxlcy9wYXJ0L01ha2VEZWNMaXN0O3hyACN3ZWthLmNsYXNzaWZpZXJzLkFic3RyYWN0Q2xhc3NpZmllclo+hCG9JiNNAgABWgAHbV9EZWJ1Z3hwAD4ZmZoAAAABAAAAAAIAAAADAAABcA=="/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="name" type="xstring" value="PART (3.7)"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObject"/>
-<entry key="port_object_summary" type="xstring" value="PART"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="85701ae3-db29-4d0d-9e3c-be0a57c50747"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
